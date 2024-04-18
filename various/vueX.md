@@ -18,3 +18,4 @@ Vuex is commonly used in Vue.js applications, especially those with complex stat
 
 
 <b>=> Vuex v.5 has been renamed into Pinia</b>
+See - https://vuex.vuejs.org/
