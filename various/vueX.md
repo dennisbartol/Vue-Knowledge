@@ -15,3 +15,6 @@ Here's an overview of Vuex and its key concepts:
 <b>5. Modules:</b> Vuex allows developers to organize their store into modules, each of which can have its own state, getters, mutations, actions, and even nested modules. This helps manage large-scale applications by dividing the store into smaller, manageable pieces.
 
 Vuex is commonly used in Vue.js applications, especially those with complex state management needs, such as applications with multiple components that need to share and synchronize state. By centralizing the state management logic in a Vuex store, developers can maintain a clear and predictable data flow throughout their applications.
+
+
+<b>=> Vuex v.5 has been renamed into Pinia</b>
