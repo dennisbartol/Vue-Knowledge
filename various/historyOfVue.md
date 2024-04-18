@@ -3,5 +3,7 @@
 Vue.js, commonly referred to as Vue, is an open-source JavaScript framework used for building user interfaces and single-page applications. Here's a brief overview of its history:
 
 <b>1. Creation by Evan You (2014):</b> Vue.js was created by Evan You, a former Google employee, in 2014. He started working on Vue as a side project while working at Google Creative Labs.
+
 <b>2. Initial Release (2014):</b> Vue.js was officially released to the public in February 2014, with version 0.6.0. It was initially developed as a solution to handle dynamic user interfaces in web applications.
+
 <b>3. Version 1.0 (2015):</b> The first stable version, Vue.js 1.0, was released in October 2015. This version introduced features like directives, components, and the virtual DOM, which significantly improved performance and developer experience.
