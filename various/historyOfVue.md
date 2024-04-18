@@ -13,3 +13,5 @@ Vue.js, commonly referred to as Vue, is an open-source JavaScript framework used
 <b>5. Growing Popularity (2017-2019):</b> Vue.js gained popularity rapidly among developers due to its simplicity, flexibility, and performance. Its ecosystem expanded with the development of tools like Vue Router for routing and Vuex for state management.
 
 <b>6. Version 3.0 (2020):</b> Vue.js 3.0 was released in September 2020. This version was a complete rewrite of the framework, focusing on improved performance, smaller bundle sizes, and better TypeScript support. Vue 3 introduced the Composition API for building components, which provided more flexibility and reusability compared to the Options API in Vue 2.
+
+<b>7. Ongoing Development:</b> Since the release of Vue 3, the Vue.js core team has been actively maintaining and improving the framework. They regularly release updates and minor versions to address bugs, introduce new features, and enhance developer experience.
