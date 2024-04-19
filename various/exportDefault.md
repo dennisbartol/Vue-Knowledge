@@ -27,3 +27,8 @@ import MyComponent from './MyComponent.vue'
 </code>
 
 In Vue.js, 'export default' commonly <ins>used to export Vue components, allowing other parts of the application to import and use them easily</ins>. This is a convention in Vue.js projects, though you're not required to use it - you could use named exports and imports instead if you prefer.
+
+
+In addition, in Vue.js components, besides the data() method, there are several other objects or methods that you commonly use to define the component's behavior and structure. Here are some of the key ones:
+
+
