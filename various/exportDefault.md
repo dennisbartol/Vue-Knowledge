@@ -18,6 +18,7 @@ export default {
   }
 }
 </code>
+Javascript:</br>
 <code>
 // Importing module
 import MyComponent from './MyComponent.vue'
