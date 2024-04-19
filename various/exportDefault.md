@@ -30,7 +30,7 @@ In Vue.js, 'export default' commonly <ins>used to export Vue components, allowin
 
 <h4>Other objects and methods</h4>
 
-In addition, in Vue.js components, besides the data() method, there are several other objects or methods that you commonly use to define the component's behavior and structure. Here are some of the key ones:
+In addition, in Vue.js components, besides the data() method, there are several other objects or methods that you commonly use to define the component's behavior and structure. <ins>Here are some of the key ones</ins>:
 
 <b>1. Props:</b> This object allows a parent component to pass data down to a child component. It's an array or an object containing props that the component accepts.
 
