@@ -28,6 +28,8 @@ import MyComponent from './MyComponent.vue'
 
 In Vue.js, 'export default' commonly <ins>used to export Vue components, allowing other parts of the application to import and use them easily</ins>. This is a convention in Vue.js projects, though you're not required to use it - you could use named exports and imports instead if you prefer.
 
+In addition, in Vue.js components, besides the data() method, there are several other objects or methods that you commonly use to define the component's behavior and structure. Here are some of the key ones:
+
 1. Props: This object allows a parent component to pass data down to a child component. It's an array or an object containing props that the component accepts.
 
 2. Computed: Computed properties are cached based on their reactive dependencies. They are useful for deriving values based on other data in the component.
@@ -36,6 +38,11 @@ In Vue.js, 'export default' commonly <ins>used to export Vue components, allowin
 
 4. Watch: This object allows you to perform side effects in response to changes in reactive data. You can watch individual properties or an expression and execute a callback when the value changes.
 
-In addition, in Vue.js components, besides the data() method, there are several other objects or methods that you commonly use to define the component's behavior and structure. Here are some of the key ones:
+5. Components: This object is used to register child components within a parent component. It's particularly useful in single-file components where you define multiple components in the same file.
+
+6. Mounted: This is a lifecycle hook that is called after the component has been mounted to the DOM. It's often used for performing initial setup that requires access to the DOM.
+
+7. Created: This is a lifecycle hook that is called synchronously after the instance has been initialized, before data observation and computed properties are set up.
+
 
 
