@@ -24,3 +24,5 @@ import MyComponent from './MyComponent.vue'
 
 // Now MyComponent refers to the default export of MyComponent.vue
 </code>
+
+In Vue.js, it's commonly used to export Vue components, allowing other parts of the application to import and use them easily. This is a convention in Vue.js projects, though you're not required to use it - you could use named exports and imports instead if you prefer.
