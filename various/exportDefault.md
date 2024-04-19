@@ -30,19 +30,19 @@ In Vue.js, 'export default' commonly <ins>used to export Vue components, allowin
 
 In addition, in Vue.js components, besides the data() method, there are several other objects or methods that you commonly use to define the component's behavior and structure. Here are some of the key ones:
 
-1. Props: This object allows a parent component to pass data down to a child component. It's an array or an object containing props that the component accepts.
+<b>1. Props:</b> This object allows a parent component to pass data down to a child component. It's an array or an object containing props that the component accepts.
 
-2. Computed: Computed properties are cached based on their reactive dependencies. They are useful for deriving values based on other data in the component.
+<b>2. Computed:</b> Computed properties are cached based on their reactive dependencies. They are useful for deriving values based on other data in the component.
 
-3. Methods: This object contains methods that the component can use. These methods can be called from within the component's template or from other methods.
+<b>3. Methods:</b> This object contains methods that the component can use. These methods can be called from within the component's template or from other methods.
 
-4. Watch: This object allows you to perform side effects in response to changes in reactive data. You can watch individual properties or an expression and execute a callback when the value changes.
+<b>4. Watch:</b> This object allows you to perform side effects in response to changes in reactive data. You can watch individual properties or an expression and execute a callback when the value changes.
 
-5. Components: This object is used to register child components within a parent component. It's particularly useful in single-file components where you define multiple components in the same file.
+<b>5. Components:</b> This object is used to register child components within a parent component. It's particularly useful in single-file components where you define multiple components in the same file.
 
-6. Mounted: This is a lifecycle hook that is called after the component has been mounted to the DOM. It's often used for performing initial setup that requires access to the DOM.
+<b>6. Mounted:</b> This is a lifecycle hook that is called after the component has been mounted to the DOM. It's often used for performing initial setup that requires access to the DOM.
 
-7. Created: This is a lifecycle hook that is called synchronously after the instance has been initialized, before data observation and computed properties are set up.
+<b>7. Created:</b> This is a lifecycle hook that is called synchronously after the instance has been initialized, before data observation and computed properties are set up.
 
 
 
