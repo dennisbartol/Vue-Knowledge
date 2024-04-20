@@ -17,7 +17,8 @@ Here's a basic example of a Vue 3 component using the Composition API and the `s
 <code>
 &lt;script>
 import { defineComponent, ref } from 'vue';
-
+</code>
+<code>
 export default defineComponent({
   setup() {
     // Define a reactive reference for count
