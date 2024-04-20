@@ -23,7 +23,8 @@ export default defineComponent({
   setup() {
     // Define a reactive reference for count
     const count = ref(0);
-
+</code>
+<code>
     // Define a method to increment count
     const increment = () => {
       count.value++;
