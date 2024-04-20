@@ -1,5 +1,4 @@
-
-
+<h4>Computed functions in Vue</h4>
 
 A computed function in Vue.js is a special type of property that is derived from one or more reactive properties and is updated automatically whenever its dependencies change. Computed properties are used to perform calculations or transformations on reactive data in a Vue component.
 
