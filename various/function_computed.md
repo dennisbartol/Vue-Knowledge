@@ -10,7 +10,7 @@ Here's a breakdown of how computed properties work:
 
 <b>3. Lazy Evaluation:</b> Computed properties are lazy by default, meaning they won't be evaluated until they are accessed in the template or within the component's JavaScript code.
 
-<b>4. Getter and Setter:</b> Computed properties have both a getter and a setter function. The getter function calculates the value of the computed property based on its dependencies, while the setter function allows you to define custom behavior when trying to assign a value to the computed property.
+<b>4. Getter and Setter:</b> <ins>Computed properties have both a getter and a setter function</ins>. The getter function calculates the value of the computed property based on its dependencies, while the setter function allows you to define custom behavior when trying to assign a value to the computed property.
 
 Here's a simple example of a computed property in Vue.js:
 
