@@ -29,7 +29,8 @@ export default defineComponent({
     const increment = () => {
       count.value++;
     };
-
+</code>
+<code>
     // Expose reactive state and method to the template
     return {
       count,
