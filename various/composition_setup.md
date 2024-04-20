@@ -1,4 +1,4 @@
-
+<b>Setup() in Vue 3</b>
 
 
 Yes, `setup()` is a built-in function in Vue 3's Composition API. <b>It's a fundamental part of Vue 3's Composition API and serves as the entry point for setting up a component</b>.
