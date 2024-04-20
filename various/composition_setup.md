@@ -13,7 +13,8 @@ Here's a basic example of a Vue 3 component using the Composition API and the `s
     &lt;button @click="increment">Increment</button>
   &lt;/div>
 &lt;/template>
-
+</code>
+<code>
 &lt;script>
 import { defineComponent, ref } from 'vue';
 
