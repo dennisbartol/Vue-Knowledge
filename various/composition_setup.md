@@ -43,7 +43,7 @@ export default defineComponent({
 
 In this example:
 <ol>
-<li>We import `defineComponent` and `ref` from Vue.</li>
+<li>We import 'defineComponent' and `ref` from Vue.</li>
 <li>Inside the `setup()` function, we define a reactive reference `count` using `ref`.</li>
 <li>We define a method `increment` that increments the `count` when called.</li>
 <li>Finally, we return the reactive state (`count`) and the method (`increment`) from the `setup()` function, making them accessible in the template.</li>
