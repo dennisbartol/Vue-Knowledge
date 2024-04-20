@@ -42,11 +42,11 @@ export default defineComponent({
 </code>
 
 In this example:
-<ol>
+<ul>
 <li>We import 'defineComponent' and `ref` from Vue.</li>
 <li>Inside the `setup()` function, we define a reactive reference `count` using `ref`.</li>
 <li>We define a method `increment` that increments the `count` when called.</li>
 <li>Finally, we return the reactive state (`count`) and the method (`increment`) from the `setup()` function, making them accessible in the template.</li>
-</ol>
+</ul>
 
 `setup()` is a crucial part of Vue 3's Composition API, allowing you to organize and encapsulate your component's logic in a more functional and composable manner.
