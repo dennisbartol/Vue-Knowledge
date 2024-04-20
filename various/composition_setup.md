@@ -50,3 +50,6 @@ In this example:
 </ol>
 
 `setup()` is a crucial part of Vue 3's Composition API, allowing you to organize and encapsulate your component's logic in a more functional and composable manner.
+
+Official Vue documentation: </br>
+https://vuejs.org/api/composition-api-setup
