@@ -18,3 +18,5 @@ Here's a simple example of a computed property in Vue.js:
 
 
 ![Knipsel_computed](https://github.com/dennisbartol/Vue-Knowledge/assets/85198215/e134b747-bd25-483e-bf38-7e413692ed56)
+
+In this example, the `area` computed property depends on the width and height reactive properties. Whenever width or height changes, Vue will automatically recalculate the area and update any bindings in the template that reference it.
