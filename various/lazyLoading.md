@@ -11,3 +11,10 @@ Here's how lazy loading typically works for different types of resources:
 <b>3. Content Lazy Loading:</b> Lazy loading can also be applied to other types of content, such as text, videos, or entire sections of a webpage. Content can be loaded dynamically as the user scrolls down the page or interacts with certain elements, rather than loading all content upfront. This can help reduce the initial page load time and improve perceived performance, especially for long web pages with a lot of content.
 
 <b>Overall, lazy loading is a performance optimization technique that helps improve website loading times, reduce bandwidth usage, and enhance the user experience by deferring the loading of non-critical resources until they are actually needed.</b>
+
+
+<h4>The Intersection Observer API</h4>
+
+The Intersection Observer API is a built-in feature of modern web browsers and is part of the JavaScript language specification. It is supported in most modern web browsers, including Google Chrome, Firefox, Safari, Edge, and others.
+
+The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport. This makes it useful for implementing lazy loading of images, infinite scrolling, and other dynamic behaviors based on element visibility.
