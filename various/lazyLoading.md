@@ -5,3 +5,5 @@ Lazy loading, in the context of website development, refers to a technique where
 Here's how lazy loading typically works for different types of resources:
 
 <b>1. Image Lazy Loading:</b> With image lazy loading, images are loaded only when they come into view within the browser's viewport. This is particularly useful for web pages with many images or large images that may cause slow initial loading times. By loading images lazily, the initial page load time can be significantly reduced, improving the user experience. Popular JavaScript libraries like Intersection Observer API are often used to implement image lazy loading.
+
+<b>2. Script Lazy Loading:</b> Lazy loading can also be applied to JavaScript files. Instead of loading all JavaScript files at once when the page loads, scripts can be loaded asynchronously or deferred until they are needed. This can be beneficial for improving initial page load times, especially for scripts that are not critical for rendering above-the-fold content. JavaScript modules and dynamic script loading techniques can be used to implement script lazy loading.
