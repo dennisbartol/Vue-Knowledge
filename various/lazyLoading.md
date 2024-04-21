@@ -13,7 +13,7 @@ Here's how lazy loading typically works for different types of resources:
 <b>Overall, lazy loading is a performance optimization technique that helps improve website loading times, reduce bandwidth usage, and enhance the user experience by deferring the loading of non-critical resources until they are actually needed.</b>
 
 
-<h4>The Intersection Observer API</h4>
+<h4>The Intersection Observer API.</h4>
 
 The Intersection Observer API is a built-in feature of modern web browsers and is part of the JavaScript language specification. It is supported in most modern web browsers, including Google Chrome, Firefox, Safari, Edge, and others.
 
