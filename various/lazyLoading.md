@@ -18,3 +18,5 @@ Here's how lazy loading typically works for different types of resources:
 The Intersection Observer API is a built-in feature of modern web browsers and is part of the JavaScript language specification. It is supported in most modern web browsers, including Google Chrome, Firefox, Safari, Edge, and others.
 
 The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport. This makes it useful for implementing lazy loading of images, infinite scrolling, and other dynamic behaviors based on element visibility.
+
+Because it's built into the browser, you can use the Intersection Observer API directly in your JavaScript code without needing to include any external libraries or dependencies. However, it's always a good idea to check browser compatibility before using any new feature, especially if you need to support older browsers.
