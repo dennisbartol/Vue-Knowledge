@@ -4,9 +4,11 @@ To create a video player in Vue 3 with fullscreen enter/exit options, you can fo
 
 1. Setup Vue Project: Set up a new Vue project or use an existing one.
 2. Install Dependencies: You'll need to install the vue-video-player package to handle video playback. You can do this via npm or yarn:
+NPM:</br>
 <code>
 npm install vue-video-player video.js
 </code>
+Yarn:</br>
 <code>
 yarn add vue-video-player video.js
 </code>
