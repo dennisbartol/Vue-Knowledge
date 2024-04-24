@@ -17,6 +17,44 @@ import { VueVideoPlayer } from 'vue-video-player';
 import 'video.js/dist/video-js.css';
 </code>
 
+4. Create Vue Component: Define your Vue component with the video player and fullscreen functionality:
+&lt;template>
+  &lt;div>
+    &lt;video-player ref="videoPlayer" class="video-js vjs-default-skin"></video-player>
+    &lt;button @click="toggleFullscreen">Toggle Fullscreen</button>
+  &lt;/div>
+&lt;/template>
+
+&lt;script>
+import { VueVideoPlayer } from 'vue-video-player';
+import 'video.js/dist/video-js.css';
+
+export default {
+  components: {
+    videoPlayer: VueVideoPlayer
+  },
+  methods: {
+    toggleFullscreen() {
+      const videoPlayer = this.$refs.videoPlayer.$refs.videoPlayer;
+      if (videoPlayer.requestFullscreen) {
+        videoPlayer.requestFullscreen();
+      } else if (videoPlayer.mozRequestFullScreen) {
+        videoPlayer.mozRequestFullScreen();
+      } else if (videoPlayer.webkitRequestFullscreen) {
+        videoPlayer.webkitRequestFullscreen();
+      } else if (videoPlayer.msRequestFullscreen) {
+        videoPlayer.msRequestFullscreen();
+      }
+    }
+  }
+};
+&lt;/script>
+
+&lt;style scoped>
+/* Add your custom styles here */
+&lt;/style>
+
+
 
 To set the video player element to fullscreen mode like YouTube's video player, you can use the `requestFullscreen()` API and CSS to achieve this. Here's how you can modify the previous example to make the video player element fullscreen:
 
