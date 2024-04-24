@@ -60,8 +60,8 @@ export default {
 
 </code>
 
-In this modified version:
-
+In this version:
+&nbsp;</br>
 1. The video element is wrapped inside a div with a class video-container.
 2. CSS is used to maintain the aspect ratio of the video player.
 3. The toggleFullscreen method toggles fullscreen mode for the video-container instead of just the video element.
