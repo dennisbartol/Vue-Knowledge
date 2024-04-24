@@ -11,12 +11,13 @@ npm install vue-video-player video.js
 yarn add vue-video-player video.js
 </code>
 
+<p>
 3. Import Video Player Component: In your Vue component where you want to use the video player, import the necessary components:
 <code>
 import { VueVideoPlayer } from 'vue-video-player';
 import 'video.js/dist/video-js.css';
 </code>
-
+</p>
 
 4. Create Vue Component: Define your Vue component with the video player and fullscreen functionality:
 <code>
