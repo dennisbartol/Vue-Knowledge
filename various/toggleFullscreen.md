@@ -60,7 +60,7 @@ export default {
 &lt;/style>
 </code>
 
-
+<p>
 To set the video player element to fullscreen mode like YouTube's video player, you can use the `requestFullscreen()` API and CSS to achieve this. Here's how you can modify the previous example to make the video player element fullscreen:
 
 <code>
@@ -130,3 +130,5 @@ In this version:
 5. When exiting fullscreen, document.exitFullscreen() is called.
 
 This will make the entire video player container fullscreen, similar to the behavior seen on YouTube's video player. Adjust the styles and layout as needed to fit your design requirements.
+
+</p>
