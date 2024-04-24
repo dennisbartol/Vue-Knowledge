@@ -1,1 +1,1 @@
-<h4>How scalable is Vue</h4>
+<h4>Typescript in Vue</h4>
