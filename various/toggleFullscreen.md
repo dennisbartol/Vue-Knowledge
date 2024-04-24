@@ -26,11 +26,13 @@ import 'video.js/dist/video-js.css';
     &lt;button @click="toggleFullscreen">Toggle Fullscreen</button>
   &lt;/div>
 &lt;/template>
-
+</code>
+<code>
 &lt;script>
 import { VueVideoPlayer } from 'vue-video-player';
 import 'video.js/dist/video-js.css';
-
+</code>
+<code>
 export default {
   components: {
     videoPlayer: VueVideoPlayer
@@ -51,7 +53,8 @@ export default {
   }
 };
 &lt;/script>
-
+</code>
+<code>
 &lt;style scoped>
 /* Add your custom styles here */
 &lt;/style>
