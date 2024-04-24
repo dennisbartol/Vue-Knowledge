@@ -59,3 +59,13 @@ export default {
 </code>
 
 </code>
+
+In this modified version:
+
+1. The video element is wrapped inside a div with a class video-container.
+2. CSS is used to maintain the aspect ratio of the video player.
+3. The toggleFullscreen method toggles fullscreen mode for the video-container instead of just the video element.
+4. When entering fullscreen, requestFullscreen() is called on the video-container.
+5. When exiting fullscreen, document.exitFullscreen() is called.
+
+This will make the entire video player container fullscreen, similar to the behavior seen on YouTube's video player. Adjust the styles and layout as needed to fit your design requirements.
