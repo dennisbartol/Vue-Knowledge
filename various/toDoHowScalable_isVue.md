@@ -13,3 +13,9 @@ Vue 3 is designed with scalability in mind, offering several features and improv
 <b>5. Enhanced TypeScript Support:</b> Vue 3 offers enhanced support for TypeScript, including better type inference and stricter type checking. This can help improve the scalability of your codebase by catching errors early and providing better tooling support for refactoring and managing large codebases.
 
 Overall, Vue 3 provides a solid foundation for building scalable applications, with features and optimizations that address the challenges of building and maintaining large-scale Vue.js projects. However, like any framework, the scalability of a Vue 3 application ultimately depends on how it's designed, structured, and maintained throughout its lifecycle.
+
+<h4>Example of Scalability</h4>
+
+One example of a highly scaled website built using Vue.js is GitLab. GitLab is a web-based Git repository manager that provides a complete DevOps platform for software development, including version control, issue tracking, continuous integration/continuous deployment (CI/CD), and more.
+
+GitLab's frontend is built using Vue.js, and it serves as a robust example of how Vue.js can be used to create a large-scale, enterprise-level application. Here are some reasons why GitLab is considered a highly scaled website:
