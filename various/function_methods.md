@@ -1,0 +1,1 @@
+Export default { methods : ... } example
