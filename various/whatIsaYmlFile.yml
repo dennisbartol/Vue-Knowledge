@@ -1,5 +1,0 @@
-<h4>What is a YML file</h4>
-
-A YAML (.yml) file is a human-readable data serialization format commonly used for configuration files, data exchange, and other purposes. YAML stands for "YAML Ain't Markup Language." It's often used in contexts where data needs to be easily readable by both humans and machines.
-
-YAML is designed to be simple and intuitive, using indentation and whitespace to structure data. It supports various data types such as scalars (strings, numbers, booleans), lists (arrays), and maps (objects/dictionaries). Here's a basic example of YAML syntax:
