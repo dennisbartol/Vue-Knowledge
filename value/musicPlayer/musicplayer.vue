@@ -13,3 +13,11 @@
       <audio ref="audioPlayer" controls></audio>
     </main>
 </template>
+
+
+export default {
+  setup() {
+
+
+  }
+}
