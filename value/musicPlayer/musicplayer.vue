@@ -20,7 +20,8 @@ import { ref } from 'vue';
   
 export default {
   setup() {   // Setup the composition API
-    const audioFiles = ref([]);
+    const audioFiles = ref([]); // This line creates a reactive reference to an empty array. audioFiles will hold the list of audio files selected by the user.
+   // Since audioFiles is a reactive reference, any changes to its value will cause the component to re-render where this reference is used.
     const audioPlayer = ref(null);
     const currentTrack = ref(null); // Display the current track being played.
 
