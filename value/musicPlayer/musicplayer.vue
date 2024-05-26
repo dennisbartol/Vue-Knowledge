@@ -20,7 +20,8 @@ import { ref } from 'vue';
   
 export default {
   setup() {
-
+    const audioFiles = ref([]);
+    const audioPlayer = ref(null);
 
   }
 }
