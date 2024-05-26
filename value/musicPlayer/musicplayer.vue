@@ -22,7 +22,7 @@ export default {
   setup() {
     const audioFiles = ref([]);
     const audioPlayer = ref(null);
-    const currentTrack = ref(null);
+    const currentTrack = ref(null); // Display the current track being played.
 
       const handleFiles = (event) => {
       const files = Array.from(event.target.files).filter((file) =>
