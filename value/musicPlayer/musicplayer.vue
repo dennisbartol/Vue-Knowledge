@@ -23,6 +23,13 @@ export default {
     const audioFiles = ref([]);
     const audioPlayer = ref(null);
 
+      const handleFiles = (event) => {
+      const files = Array.from(event.target.files).filter((file) =>
+        ['audio/mp3', 'audio/mp4', 'audio/wav'].includes(file.type)
+      );
+      audioFiles.value = files;
+    };
+
   }
 }
 
