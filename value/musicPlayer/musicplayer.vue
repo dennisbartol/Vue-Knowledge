@@ -24,5 +24,21 @@ export default {
 
 
 <style scoped>
-
+  #app {
+  text-align: center;
+}
+header {
+  margin: 20px;
+}
+main {
+  margin: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  cursor: pointer;
+  margin: 5px 0;
+}
 </style>
