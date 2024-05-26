@@ -15,6 +15,9 @@
 </template>
 
 
+<script>
+import { ref } from 'vue';
+  
 export default {
   setup() {
 
@@ -22,6 +25,7 @@ export default {
   }
 }
 
+</script>
 
 <style scoped>
   #app {
