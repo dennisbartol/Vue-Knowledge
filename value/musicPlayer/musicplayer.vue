@@ -35,9 +35,16 @@ export default {
       audioPlayer.value.src = audioURL;
       audioPlayer.value.play();
     };
+
+      return {
+      audioFiles,
+      audioPlayer,
+      handleFiles,
+      playAudio,
+    };
     
-  }
-}
+  },
+};
 
 </script>
 
