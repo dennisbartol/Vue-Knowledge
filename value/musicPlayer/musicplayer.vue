@@ -25,7 +25,7 @@ export default {
     
     const audioPlayer = ref(null); // This line creates a reactive reference to null.
     // audioPlayer will be used to reference the <audio> element in the template.
-    //By initializing it with null, you set up a placeholder that will later be assigned the actual DOM element when it is mounted.
+    // By initializing it with null, you set up a placeholder that will later be assigned the actual DOM element when it is mounted.
     
     const currentTrack = ref(null); // Display the current track being played.
 
