@@ -41,6 +41,7 @@ export default {
       return {
       audioFiles,
       audioPlayer,
+      currentTrack,
       handleFiles,
       playAudio,
     };
