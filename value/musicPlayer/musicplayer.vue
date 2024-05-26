@@ -35,6 +35,7 @@ export default {
       const audioURL = URL.createObjectURL(file);
       audioPlayer.value.src = audioURL;
       audioPlayer.value.play();
+      currentTrack.value = file;
     };
 
       return {
