@@ -19,7 +19,7 @@
 import { ref } from 'vue';
   
 export default {
-  setup() {
+  setup() {   // Setup the composition API
     const audioFiles = ref([]);
     const audioPlayer = ref(null);
     const currentTrack = ref(null); // Display the current track being played.
