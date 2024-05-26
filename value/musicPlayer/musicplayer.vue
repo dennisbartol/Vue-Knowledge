@@ -22,6 +22,7 @@ export default {
   setup() {
     const audioFiles = ref([]);
     const audioPlayer = ref(null);
+    const currentTrack = ref(null);
 
       const handleFiles = (event) => {
       const files = Array.from(event.target.files).filter((file) =>
