@@ -30,6 +30,12 @@ export default {
       audioFiles.value = files;
     };
 
+     const playAudio = (file) => {
+      const audioURL = URL.createObjectURL(file);
+      audioPlayer.value.src = audioURL;
+      audioPlayer.value.play();
+    };
+    
   }
 }
 
