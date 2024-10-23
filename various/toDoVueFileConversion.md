@@ -80,4 +80,4 @@ Though this removes the single-file component benefit, it's useful in certain le
 When using server-side rendering (SSR) with Vue (commonly with **Nuxt.js**), the Vue files are converted into server-rendered HTML on the server. This means that the Vue components are pre-rendered on the server and sent as static HTML to the client, improving SEO and performance for initial page loads.
 
 **Conclusion**</br>
-In summary, Vue file conversion can refer to various processes, such as compiling .vue files into standard JavaScript/TypeScript, converting Vue projects from version 2 to version 3, integrating with other frameworks (like React or Web Components), generating static sites, or preparing mobile apps. The exact process depends on the target environment or technology being used.
+In summary, Vue file conversion can refer to various processes, such as compiling `.vue` files into standard JavaScript/TypeScript, converting Vue projects from version 2 to version 3, integrating with other frameworks (like React or Web Components), generating static sites, or preparing mobile apps. The exact process depends on the target environment or technology being used.
