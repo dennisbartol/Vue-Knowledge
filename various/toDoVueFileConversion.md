@@ -55,15 +55,16 @@ customElements.define('my-component', CustomElement);
 **5. Vue to Mobile or Native App Conversion** (via frameworks like NativeScript or Capacitor)</br>
 You can convert Vue files into mobile applications by using frameworks like NativeScript Vue or Capacitor:
 
-NativeScript Vue: Converts Vue components into native mobile UI elements (for iOS and Android).
-Capacitor (by Ionic): Allows Vue components to be packaged into mobile apps by wrapping web technology (Vue) into native shells.
+- NativeScript Vue: Converts Vue components into native mobile UI elements (for iOS and Android).
+- Capacitor (by Ionic): Allows Vue components to be packaged into mobile apps by wrapping web technology (Vue) into native shells.
+
 This process involves setting up the project with the necessary frameworks, and Vue files are converted into mobile-compatible components.
 
 **6. Vue to Static Site Conversion (via Nuxt.js or VuePress)**</br>
 For converting a Vue project into a static site, tools like Nuxt.js and VuePress are commonly used. These frameworks allow you to create Vue components that are compiled into static HTML/CSS/JS files.
 
-Nuxt.js: When using Nuxt.js in static generation mode (nuxt generate), it takes your Vue components and converts them into static files that can be served without a backend server.
-VuePress: Primarily for documentation, VuePress converts .md files and embedded Vue components into a static site.
+- Nuxt.js: When using Nuxt.js in static generation mode (nuxt generate), it takes your Vue components and converts them into static files that can be served without a backend server.
+- VuePress: Primarily for documentation, VuePress converts .md files and embedded Vue components into a static site.
 
 **7. Vue File to HTML/CSS/JS Extraction**</br>
 Sometimes you might want to extract the contents of a .vue file into separate HTML, CSS, and JavaScript files. This is typically done for environments where single-file components are not desired, or you're manually integrating Vue into an existing project. The conversion process looks like this:
