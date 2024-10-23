@@ -4,7 +4,7 @@ Vue file conversion refers to transforming a .vue single-file component (SFC) in
 
 There are several common scenarios where Vue file conversion is used, depending on the target format or need:
 
-##1. Vue to JavaScript (or TypeScript) Conversion##
+**1. Vue to JavaScript (or TypeScript) Conversion**
 When a .vue file is processed by the build tools (like Webpack or Vite), it's converted into standard JavaScript (or TypeScript if you use TypeScript in Vue) because browsers don’t natively understand .vue files.
 
 Template: The HTML-like syntax (using Vue's templating language) is transformed into a JavaScript render function.
@@ -12,7 +12,7 @@ Script: The script section (JavaScript or TypeScript) remains largely the same, 
 Style: The CSS or preprocessors like SCSS/LESS are extracted and bundled into the final CSS files.
 Tools like Vue Loader for Webpack or Vite automate this conversion process, translating .vue files into assets that browsers can interpret.
 
-2. Vue 2 to Vue 3 Conversion
+**2. Vue 2 to Vue 3 Conversion**
 Converting a Vue 2 project into Vue 3 may involve:
 
 Updating the way components are written, from using the Options API to potentially using the Composition API or <script setup>.
@@ -21,7 +21,7 @@ Handling breaking changes and deprecated features.
 Updating external dependencies and plugins to be Vue 3-compatible.
 Tools like the official Vue 3 Migration Build can assist in transitioning Vue 2 projects to Vue 3, providing warnings and suggestions during the conversion.
 
-3. Vue to React Conversion
+**3. Vue to React Conversion**
 Converting Vue components to React involves rewriting components from one framework to another. Since Vue and React have different paradigms, this is more about porting than direct conversion. Key differences include:
 
 Vue’s Template vs. React’s JSX: Vue uses HTML-like templates, while React uses JSX syntax.
@@ -29,16 +29,16 @@ Reactivity: Vue’s ref and reactive are conceptually different from React’s h
 Component System: Vue’s single-file components differ from React's JavaScript-only approach.
 You might need to manually convert each .vue file into React functional or class components.
 
-4. Vue to Web Components Conversion
+**4. Vue to Web Components Conversion
 Vue components can be converted into Web Components, which are standard browser-supported custom elements that work outside the Vue ecosystem. This is useful when you want to distribute Vue components in a way that they can be used across non-Vue projects (e.g., React, Angular, or plain HTML).
 
 Vue provides official support for converting Vue components into Web Components via @vue/web-component-wrapper.
 
 Example:
 
-bash
-Code kopiëren
+``` vue
 npm install @vue/web-component-wrapper --save
+```
 After installing, you can wrap your Vue component and export it as a Web Component:
 
 js
