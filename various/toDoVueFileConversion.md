@@ -69,9 +69,10 @@ For converting a Vue project into a static site, tools like Nuxt.js and VuePress
 **7. Vue File to HTML/CSS/JS Extraction**</br>
 Sometimes you might want to extract the contents of a .vue file into separate HTML, CSS, and JavaScript files. This is typically done for environments where single-file components are not desired, or you're manually integrating Vue into an existing project. The conversion process looks like this:
 
-The <template> section is moved to an .html file.
-The <style> section is moved to a .css file.
-The <script> section is moved to a .js file.
+- The <template> section is moved to an .html file.
+- The <style> section is moved to a .css file.
+- The <script> section is moved to a .js file.
+
 Though this removes the single-file component benefit, it's useful in certain legacy scenarios or partial Vue integration projects.
 
 **8. Vue SSR (Server-Side Rendering) Conversion**</br>
