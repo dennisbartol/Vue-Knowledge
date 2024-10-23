@@ -25,9 +25,9 @@ Tools like the official **Vue 3 Migration Build** can assist in transitioning Vu
 **3. Vue to React Conversion**</br>
 Converting Vue components to React involves rewriting components from one framework to another. Since Vue and React have different paradigms, this is more about porting than direct conversion. Key differences include:
 
-- Vue’s Template vs. React’s JSX: Vue uses HTML-like templates, while React uses JSX syntax.
-- Reactivity: Vue’s ref and reactive are conceptually different from React’s hooks like useState and useEffect.
-- Component System: Vue’s single-file components differ from React's JavaScript-only approach.
+- **Vue’s Template vs. React’s JSX:** Vue uses HTML-like templates, while React uses JSX syntax.
+- **Reactivity:** Vue’s ref and reactive are conceptually different from React’s hooks like useState and useEffect.
+- **Component System:** Vue’s single-file components differ from React's JavaScript-only approach.
 
 You might need to manually convert each `.vue` file into React functional or class components.
 
