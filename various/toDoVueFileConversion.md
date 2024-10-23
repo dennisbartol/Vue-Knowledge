@@ -7,9 +7,9 @@ There are several common scenarios where Vue file conversion is used, depending 
 **1. Vue to JavaScript (or TypeScript) Conversion**</br>
 When a .vue file is processed by the build tools (like Webpack or Vite), it's converted into standard JavaScript (or TypeScript if you use TypeScript in Vue) because browsers don’t natively understand .vue files.
 
-- ##Template:## The HTML-like syntax (using Vue's templating language) is transformed into a JavaScript render function.
-- ##Script:## The script section (JavaScript or TypeScript) remains largely the same, though it might be processed by Babel or TypeScript for compatibility with modern browsers.
-- ##Style:## The CSS or preprocessors like SCSS/LESS are extracted and bundled into the final CSS files.
+- **Template:** The HTML-like syntax (using Vue's templating language) is transformed into a JavaScript render function.
+- **Script:** The script section (JavaScript or TypeScript) remains largely the same, though it might be processed by Babel or TypeScript for compatibility with modern browsers.
+- **Style:** The CSS or preprocessors like SCSS/LESS are extracted and bundled into the final CSS files.
 Tools like Vue Loader for Webpack or Vite automate this conversion process, translating .vue files into assets that browsers can interpret.
 
 **2. Vue 2 to Vue 3 Conversion**</br>
