@@ -1,6 +1,6 @@
 <h3>.vue file conversion</h3>
 
-Vue file conversion refers to transforming a .vue single-file component (SFC) into a different format or integrating it with another type of technology or framework. .vue files are special files used by the Vue.js framework to encapsulate an entire component's structure (template, script, and style) in one file.
+<b>Vue file conversion</b> refers to transforming a .vue single-file component (SFC) into a different format or integrating it with another type of technology or framework. .vue files are special files used by the Vue.js framework to encapsulate an entire component's structure (template, script, and style) in one file.
 
 There are several common scenarios where Vue file conversion is used, depending on the target format or need:
 
