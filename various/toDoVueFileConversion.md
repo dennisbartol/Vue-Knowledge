@@ -75,6 +75,7 @@ Sometimes you might want to extract the contents of a .vue file into separate HT
 
 Though this removes the single-file component benefit, it's useful in certain legacy scenarios or partial Vue integration projects.
 
+
 **8. Vue SSR (Server-Side Rendering) Conversion**</br>
 When using server-side rendering (SSR) with Vue (commonly with Nuxt.js), the Vue files are converted into server-rendered HTML on the server. This means that the Vue components are pre-rendered on the server and sent as static HTML to the client, improving SEO and performance for initial page loads.
 
