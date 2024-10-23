@@ -15,11 +15,12 @@ Tools like Vue Loader for Webpack or Vite automate this conversion process, tran
 **2. Vue 2 to Vue 3 Conversion**</br>
 Converting a Vue 2 project into Vue 3 may involve:
 
-Updating the way components are written, from using the Options API to potentially using the Composition API or <script setup>.
-Adjusting lifecycle hooks, which have been renamed in Vue 3.
-Handling breaking changes and deprecated features.
-Updating external dependencies and plugins to be Vue 3-compatible.
-Tools like the official Vue 3 Migration Build can assist in transitioning Vue 2 projects to Vue 3, providing warnings and suggestions during the conversion.
+- Updating the way components are written, from using the Options API to potentially using the Composition API or <script setup>.
+- Adjusting lifecycle hooks, which have been renamed in Vue 3.
+- Handling breaking changes and deprecated features.
+- Updating external dependencies and plugins to be Vue 3-compatible.
+
+Tools like the official **Vue 3 Migration Build** can assist in transitioning Vue 2 projects to Vue 3, providing warnings and suggestions during the conversion.
 
 **3. Vue to React Conversion**</br>
 Converting Vue components to React involves rewriting components from one framework to another. Since Vue and React have different paradigms, this is more about porting than direct conversion. Key differences include:
