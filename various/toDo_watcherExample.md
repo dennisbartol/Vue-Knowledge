@@ -27,8 +27,8 @@ Watchers in Composition API (New in Vue 3): With the Composition API, Vue introd
 
 Here's how it works:
 
-javascript
-Code kopiëren
+```javascript
+
 import { ref, watch } from 'vue';
 
 export default {
@@ -45,6 +45,8 @@ export default {
     };
   },
 };
+```
+
 The watch function takes two arguments: the reactive reference (or computed function) and a callback to run when the value changes.
 The first argument can also be a getter function if you want to watch multiple reactive properties at once or to observe deep changes.
 Key Differences in Vue 3:
