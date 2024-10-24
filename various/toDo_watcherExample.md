@@ -47,12 +47,12 @@ export default {
 };
 ```
 
-The watch function takes two arguments: the reactive reference (or computed function) and a callback to run when the value changes.
-The first argument can also be a getter function if you want to watch multiple reactive properties at once or to observe deep changes.
-Key Differences in Vue 3:
-More Control over Dependencies: In the Composition API, you have more fine-grained control over what you're watching, and you can directly watch computed properties, refs, or complex functions that return reactive values.
+- The watch function takes two arguments: the reactive reference (or computed function) and a callback to run when the value changes.
+- The first argument can also be a getter function if you want to watch multiple reactive properties at once or to observe deep changes.
 
-Watching Multiple Sources: With the Composition API, you can watch multiple reactive sources simultaneously by passing an array to the first argument of watch.
+**Key Differences in Vue 3:**
+- More Control over Dependencies: In the Composition API, you have more fine-grained control over what you're watching, and you can directly watch computed properties, refs, or complex functions that return reactive values.
+- Watching Multiple Sources: With the Composition API, you can watch multiple reactive sources simultaneously by passing an array to the first argument of watch.
 
 Example:
 
