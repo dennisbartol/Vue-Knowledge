@@ -22,7 +22,7 @@ Example:
 
 <template>
   <div class="example">
-    Hello, Vue with SCSS!
+    Holy moly, it's Vue with SCSS!
   </div>
 </template>
 
