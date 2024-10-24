@@ -14,7 +14,8 @@ Vue 3 is designed with scalability in mind, offering several features and improv
 
 Overall, Vue 3 provides a solid foundation for building scalable applications, with features and optimizations that address the challenges of building and maintaining large-scale Vue.js projects. However, like any framework, the scalability of a Vue 3 application ultimately depends on how it's designed, structured, and maintained throughout its lifecycle.
 
-<h4>Example of Scalability</h4>
+&nbsp;</br>
+<h4>Scalability example</h4>
 
 **One example of a highly scaled website built using Vue.js is GitLab**. GitLab is a web-based Git repository manager that provides a complete DevOps platform for software development, including version control, issue tracking, continuous integration/continuous deployment (CI/CD), and more.
 
