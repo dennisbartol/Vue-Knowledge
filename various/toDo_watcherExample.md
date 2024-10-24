@@ -60,7 +60,8 @@ watch([count, anotherReactive], ([newCount, newAnotherValue], [oldCount, oldAnot
   console.log(`Count changed from ${oldCount} to ${newCount}`);
   console.log(`Another value changed from ${oldAnotherValue} to ${newAnotherValue}`);
 });
-Deep Watching: If you need to deeply watch an object or array, you can pass an additional deep: true option to the watch function. This works similarly to how deep watchers work in Vue 2.
+
+- **Deep Watching:** If you need to deeply watch an object or array, you can pass an additional deep: true option to the watch function. This works similarly to how deep watchers work in Vue 2.
 
 Example:
 
@@ -77,7 +78,7 @@ watch(
 );
 ```
 
-Immediate Invocation: Watchers in Vue 3 also support the immediate option, which can be used to run the watcher function immediately upon setup, rather than waiting for the first change.
+- **Immediate Invocation:** Watchers in Vue 3 also support the immediate option, which can be used to run the watcher function immediately upon setup, rather than waiting for the first change.
 
 ```javascript
 watch(count, (newValue, oldValue) => {
@@ -86,7 +87,7 @@ watch(count, (newValue, oldValue) => {
 ```
 
 **When to Use Watchers in Vue 3:**</br>
-_ **When you need side effects based on data changes:** Watchers are useful when you need to run some logic (like an API call, logging, or complex state management) in response to changes in reactive data.
-_ **More explicit control than computed properties:** Computed properties are typically better suited for deriving values, while watchers are better when you need to trigger side effects or handle more complex logic.
+- **When you need side effects based on data changes:** Watchers are useful when you need to run some logic (like an API call, logging, or complex state management) in response to changes in reactive data.
+- **More explicit control than computed properties:** Computed properties are typically better suited for deriving values, while watchers are better when you need to trigger side effects or handle more complex logic.
 
 In summary, <ins>watchers are still an integral part of Vue 3, and they remain useful when you need to run side effects in response to changes in reactive data.</ins> However, with the Composition API, you get more flexibility and control over your watchers, which can make them easier to use and scale in more complex applications.
