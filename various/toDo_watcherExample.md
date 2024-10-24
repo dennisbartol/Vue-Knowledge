@@ -2,6 +2,7 @@
 
 **Watchers** are still relevant and useful in Vue 3, but their usage has evolved somewhat with the introduction of the Composition API. Vue 3 maintains compatibility with watchers, and they continue to provide value when you need to respond to changes in reactive data, whether you're using the Options API or the new Composition API.
 
+
 **How Watchers Operate in Vue 3:**
 
 1. Watchers in Options API (similar to Vue 2):</br>
