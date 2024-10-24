@@ -16,7 +16,7 @@ Overall, Vue 3 provides a solid foundation for building scalable applications, w
 
 <h4>Example of Scalability</h4>
 
-One example of a highly scaled website built using Vue.js is GitLab. GitLab is a web-based Git repository manager that provides a complete DevOps platform for software development, including version control, issue tracking, continuous integration/continuous deployment (CI/CD), and more.
+**One example of a highly scaled website built using Vue.js is GitLab**. GitLab is a web-based Git repository manager that provides a complete DevOps platform for software development, including version control, issue tracking, continuous integration/continuous deployment (CI/CD), and more.
 
 GitLab's frontend is built using Vue.js, and it serves as a robust example of how Vue.js can be used to create a large-scale, enterprise-level application. Here are some reasons why GitLab is considered a highly scaled website:
 
