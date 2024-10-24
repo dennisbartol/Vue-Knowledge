@@ -2,8 +2,10 @@
 
 **Watchers** are still relevant and useful in Vue 3, but their usage has evolved somewhat with the introduction of the Composition API. Vue 3 maintains compatibility with watchers, and they continue to provide value when you need to respond to changes in reactive data, whether you're using the Options API or the new Composition API.
 
-How Watchers Operate in Vue 3:
-Watchers in Options API (similar to Vue 2): If you're using the Options API (the traditional way of writing Vue components), watchers work the same way they did in Vue 2. You define a watch property in your component and specify the data property or computed property you want to observe.
+**How Watchers Operate in Vue 3:**
+
+1. Watchers in Options API (similar to Vue 2):</br>
+If you're using the Options API (the traditional way of writing Vue components), watchers work the same way they did in Vue 2. You define a watch property in your component and specify the data property or computed property you want to observe.
 
 Example:
 
@@ -23,7 +25,8 @@ export default {
 };
 ```
 
-Watchers in Composition API (New in Vue 3): With the Composition API, Vue introduces a more flexible way to define watchers using the watch function. This function can observe reactive variables, computed properties, or even specific functions returning reactive values. It's more powerful and easier to manage in larger components because it avoids polluting the component's options space.
+2. Watchers in Composition API (New in Vue 3):</br>
+With the Composition API, Vue introduces a more flexible way to define watchers using the watch function. This function can observe reactive variables, computed properties, or even specific functions returning reactive values. It's more powerful and easier to manage in larger components because it avoids polluting the component's options space.
 
 Here's how it works:
 
