@@ -56,12 +56,12 @@ export default {
 
 Example:
 
-javascript
-Code kopiëren
+```javascript
 watch([count, anotherReactive], ([newCount, newAnotherValue], [oldCount, oldAnotherValue]) => {
   console.log(`Count changed from ${oldCount} to ${newCount}`);
   console.log(`Another value changed from ${oldAnotherValue} to ${newAnotherValue}`);
 });
+```
 
 - **Deep Watching:** If you need to deeply watch an object or array, you can pass an additional deep: true option to the watch function. This works similarly to how deep watchers work in Vue 2.
 
