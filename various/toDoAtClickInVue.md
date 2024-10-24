@@ -135,4 +135,5 @@ In frameworks like **Nuxt.js** (which is built on top of Vue), the `@` symbol is
 - **Event Modifiers**: Modifiers can be used with `@` to modify event behavior (`@click.stop`, `@submit.prevent`, etc.).
 
 &nbsp;</br>
-In summary, the `@` symbol in Vue 3 and beyond serves two main purposes: it's used as a shorthand for `v-on` in templates for event handling and as an alias for the `src` directory in import paths. Both usages help improve code readability and maintainability.
+**In summary, the `@` symbol in Vue 3 and beyond serves two main purposes:**</br> 
+It's used as a shorthand for `v-on` in templates for event handling and as an alias for the `src` directory in import paths. Both usages help improve code readability and maintainability.
