@@ -86,6 +86,7 @@ watch(count, (newValue, oldValue) => {
 ```
 
 **When to Use Watchers in Vue 3:**</br>
-When you need side effects based on data changes: Watchers are useful when you need to run some logic (like an API call, logging, or complex state management) in response to changes in reactive data.
-More explicit control than computed properties: Computed properties are typically better suited for deriving values, while watchers are better when you need to trigger side effects or handle more complex logic.
-In summary, watchers are still an integral part of Vue 3, and they remain useful when you need to run side effects in response to changes in reactive data. However, with the Composition API, you get more flexibility and control over your watchers, which can make them easier to use and scale in more complex applications.
+**When you need side effects based on data changes:** Watchers are useful when you need to run some logic (like an API call, logging, or complex state management) in response to changes in reactive data.
+**More explicit control than computed properties:** Computed properties are typically better suited for deriving values, while watchers are better when you need to trigger side effects or handle more complex logic.
+
+In summary, <ins>watchers are still an integral part of Vue 3, and they remain useful when you need to run side effects in response to changes in reactive data.</ins> However, with the Composition API, you get more flexibility and control over your watchers, which can make them easier to use and scale in more complex applications.
