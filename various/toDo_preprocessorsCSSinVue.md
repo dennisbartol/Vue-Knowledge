@@ -1,6 +1,6 @@
 <h4>Which CSS preprocessors exist and work with Vue 3 ?</h4>
 
-Vue 3 supports multiple CSS preprocessors, providing flexibility when it comes to styling your components. Popular CSS preprocessors like Sass (SCSS), Less, and Stylus work seamlessly with Vue 3, allowing you to write modular and maintainable styles with features such as variables, nesting, mixins, and functions.
+<ins>Vue 3 supports multiple CSS preprocessors, providing flexibility when it comes to styling your components.</ins> Popular CSS preprocessors like Sass (SCSS), Less, and Stylus work seamlessly with Vue 3, allowing you to write modular and maintainable styles with features such as variables, nesting, mixins, and functions.
 
 Here are the most commonly used CSS preprocessors that work with Vue 3:
 
