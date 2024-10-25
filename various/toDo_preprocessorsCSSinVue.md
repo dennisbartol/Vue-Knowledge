@@ -52,7 +52,7 @@ Install the dependencies:
 npm install less less-loader --save-devWrite Less styles in your Vue components by using the <style lang="less"> tag.
 
 **Example:**
-'''js
+```vue
 <template>
   <div class="example">
     Hello, Vue with Less!
@@ -71,4 +71,4 @@ npm install less less-loader --save-devWrite Less styles in your Vue components 
   }
 }
 </style>
-'''
+```
