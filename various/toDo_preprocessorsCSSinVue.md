@@ -41,7 +41,19 @@ Example:
 
 
 
-2. LessWhat it is: Less is another popular CSS preprocessor that allows for variables, nesting, functions, and operations on properties.How to use with Vue 3: You can use Less in Vue 3 by installing the less and less-loader packages.Steps:Install the dependencies:npm install less less-loader --save-devWrite Less styles in your Vue components by using the <style lang="less"> tag.Example:<template>
+**2. Less**
+
+What is it: Less is another popular CSS preprocessor that allows for variables, nesting, functions, and operations on properties.How to use with Vue 3: You can use Less in Vue 3 by installing the less and less-loader packages.
+
+
+**Steps:** 
+Install the dependencies:
+
+npm install less less-loader --save-devWrite Less styles in your Vue components by using the <style lang="less"> tag.
+
+**Example:**
+'''vue
+<template>
   <div class="example">
     Hello, Vue with Less!
   </div>
@@ -59,3 +71,4 @@ Example:
   }
 }
 </style>
+'''
