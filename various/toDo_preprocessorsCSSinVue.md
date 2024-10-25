@@ -10,12 +10,13 @@ Here are the most commonly used CSS preprocessors that work with Vue 3:
 - **How to use:** To use Sass or SCSS in Vue 3, you need to install the sass package along with sass-loader.
 
 **Steps:**
-Install the necessary dependencies:
+
+- Install the necessary dependencies:
 
 ```bash
 npm install sass sass-loader --save-dev
 ```
-Inside your Vue components, use the <style lang="scss"> (or <style lang="sass"> for the indented syntax) tag to write SCSS or Sass styles.
+- Inside your Vue components, use the ``` html<style lang="scss"> (or <style lang="sass">``` for the indented syntax) tag to write SCSS or Sass styles.
 
 Example:
 ```vue
