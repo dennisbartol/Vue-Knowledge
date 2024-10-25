@@ -38,3 +38,24 @@ Example:
 </style>
 ```
 ````
+
+
+
+2. LessWhat it is: Less is another popular CSS preprocessor that allows for variables, nesting, functions, and operations on properties.How to use with Vue 3: You can use Less in Vue 3 by installing the less and less-loader packages.Steps:Install the dependencies:npm install less less-loader --save-devWrite Less styles in your Vue components by using the <style lang="less"> tag.Example:<template>
+  <div class="example">
+    Hello, Vue with Less!
+  </div>
+</template>
+
+<style lang="less">
+@primary-color: #42b983;
+
+.example {
+  color: @primary-color;
+  font-size: 20px;
+
+  &:hover {
+    color: darken(@primary-color, 10%);
+  }
+}
+</style>
