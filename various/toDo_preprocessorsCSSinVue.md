@@ -19,7 +19,7 @@ npm install sass sass-loader --save-dev
 - Inside your Vue components, use the ``` html<style lang="scss"> (or <style lang="sass">``` for the indented syntax) tag to write SCSS or Sass styles.
 
 Example:
-```vue
+```js
 
 <template>
   <div class="example">
@@ -53,7 +53,7 @@ Install the dependencies:
 npm install less less-loader --save-devWrite Less styles in your Vue components by using the <style lang="less"> tag.
 
 **Example:**
-```vue
+```js
 <template>
   <div class="example">
     Hello, Vue with Less!
