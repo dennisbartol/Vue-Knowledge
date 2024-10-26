@@ -134,4 +134,5 @@ my-nuxt-app/
 - **Layouts**: The `default.vue` layout wraps around all pages by default, so `Header.vue` will appear on every page.
 - **Data Fetching**: The `setup` function in `index.vue` is where you can initialize or fetch data using Vue 3's Composition API.
 
+&nbsp;</br>
 This is a basic example, but it showcases the power of Nuxt.js, combining layout management, file-based routing, reusable components, and data handling all in one streamlined structure.
