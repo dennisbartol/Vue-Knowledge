@@ -1,1 +1,1 @@
-*Nuxt.js"*
+*Nuxt.js*
