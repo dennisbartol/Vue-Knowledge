@@ -80,26 +80,6 @@ Vue 3 supports multiple CSS preprocessors, providing flexibility when it comes t
 Here are the most commonly used CSS preprocessors that work with Vue 3:
 
 
-
-     2. Inside your Vue components, use the `<style lang="scss">` (or `<style lang="sass">` for the indented syntax) tag to write SCSS or Sass styles.
-
-     #### Example:
-     ```vue
-     <template>
-       <div class="example">
-         Hello, Vue with SCSS!
-       </div>
-     </template>
-
-     <style lang="scss">
-     .example {
-       color: $primary-color;
-       font-size: 20px;
-       
-       &:hover {
-         color: darken($primary-color, 10%)
-     ```
-
      
 
 ### 3. **Stylus**
