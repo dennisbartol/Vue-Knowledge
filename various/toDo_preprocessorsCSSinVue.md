@@ -83,7 +83,7 @@ Here are the most commonly used CSS preprocessors that work with Vue 3:
      
 
 ### 3. **Stylus**
-   - **What it is**: Stylus is a more flexible and forgiving CSS preprocessor, known for its minimal syntax and powerful features like variables, mixins, and conditionals.
+   - **What is it**: Stylus is a more flexible and forgiving CSS preprocessor, known for its minimal syntax and powerful features like variables, mixins, and conditionals.
    - **How to use with Vue 3**: Stylus can be integrated into Vue 3 by installing the `stylus` and `stylus-loader` packages.
 
      #### Steps:
@@ -115,7 +115,7 @@ Here are the most commonly used CSS preprocessors that work with Vue 3:
      ```
 
 ### 4. **PostCSS**
-   - **What it is**: PostCSS is not a preprocessor in the traditional sense, but it processes your CSS with JavaScript plugins. It can be used to add features like CSS variables, autoprefixing, and future CSS syntax (e.g., nesting). PostCSS is often used in modern projects as part of a build pipeline.
+   - **What is it**: PostCSS is not a preprocessor in the traditional sense, but it processes your CSS with JavaScript plugins. It can be used to add features like CSS variables, autoprefixing, and future CSS syntax (e.g., nesting). PostCSS is often used in modern projects as part of a build pipeline.
    - **How to use with Vue 3**: Vue CLI includes PostCSS by default, but you can configure it or add custom PostCSS plugins by creating a `postcss.config.js` file in your project.
 
      #### Example:
@@ -148,7 +148,7 @@ Here are the most commonly used CSS preprocessors that work with Vue 3:
      ```
 
 ### 5. **Tailwind CSS (Utility-first CSS Framework using PostCSS)**
-   - **What it is**: While not a traditional CSS preprocessor, **Tailwind CSS** is a utility-first CSS framework that is often used with Vue 3. It's built on PostCSS and lets you create custom designs by composing utility classes.
+   - **What is it**: While not a traditional CSS preprocessor, **Tailwind CSS** is a utility-first CSS framework that is often used with Vue 3. It's built on PostCSS and lets you create custom designs by composing utility classes.
    - **How to use with Vue 3**: Install and configure Tailwind CSS in your Vue 3 project using `postcss`.
 
      #### Steps:
