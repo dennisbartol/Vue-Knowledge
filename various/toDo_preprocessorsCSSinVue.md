@@ -113,29 +113,7 @@ Here are the most commonly used CSS preprocessors that work with Vue 3:
         npm install less less-loader --save-dev
         ```
 
-     2. Write Less styles in your Vue components by using the `<style lang="less">` tag.
-
-     #### Example:
-     ```vue
-     <template>
-       <div class="example">
-         Hello, Vue with Less!
-       </div>
-     </template>
-
-     <style lang="less">
-     @primary-color: #42b983;
-
-     .example {
-       color: @primary-color;
-       font-size: 20px;
-
-       &:hover {
-         color: darken(@primary-color, 10%);
-       }
-     }
-     </style>
-     ```
+     
 
 ### 3. **Stylus**
    - **What it is**: Stylus is a more flexible and forgiving CSS preprocessor, known for its minimal syntax and powerful features like variables, mixins, and conditionals.
