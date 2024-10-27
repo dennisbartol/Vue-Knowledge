@@ -79,15 +79,7 @@ Vue 3 supports multiple CSS preprocessors, providing flexibility when it comes t
 
 Here are the most commonly used CSS preprocessors that work with Vue 3:
 
-### 1. **Sass/SCSS**
-   - **What it is**: Sass is one of the most widely used CSS preprocessors. It extends CSS with powerful features like variables, nested rules, mixins, inheritance, and more. SCSS is a syntax of Sass that is fully compatible with CSS.
-   - **How to use with Vue 3**: To use Sass or SCSS in Vue 3, you need to install the `sass` package along with `sass-loader`.
 
-     #### Steps:
-     1. Install the necessary dependencies:
-        ```bash
-        npm install sass sass-loader --save-dev
-        ```
 
      2. Inside your Vue components, use the `<style lang="scss">` (or `<style lang="sass">` for the indented syntax) tag to write SCSS or Sass styles.
 
