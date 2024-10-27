@@ -97,21 +97,8 @@ Here are the most commonly used CSS preprocessors that work with Vue 3:
        font-size: 20px;
        
        &:hover {
-         color: darken($primary-color, 10%);
-       }
-     }
-     </style>
+         color: darken($primary-color, 10%)
      ```
-
-### 2. **Less**
-   - **What it is**: Less is another popular CSS preprocessor that allows for variables, nesting, functions, and operations on properties.
-   - **How to use with Vue 3**: You can use Less in Vue 3 by installing the `less` and `less-loader` packages.
-
-     #### Steps:
-     1. Install the dependencies:
-        ```bash
-        npm install less less-loader --save-dev
-        ```
 
      
 
