@@ -228,4 +228,4 @@ const props = defineProps<{ user: User }>();
 
 ### Conclusion
 
-By following these steps, you can easily integrate TypeScript into your Vue 3 project, gaining all the benefits of static typing and type checking. With the powerful Composition API and the `<script setup>` syntax, TypeScript in Vue 3 becomes even more seamless and intuitive.
+Through following these steps, you can easily integrate TypeScript into your Vue 3 project, gaining all the benefits of static typing and type checking. With the powerful Composition API and the `<script setup>` syntax, TypeScript in Vue 3 becomes even more seamless and intuitive.
