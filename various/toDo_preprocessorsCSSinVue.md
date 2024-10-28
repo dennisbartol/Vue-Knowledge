@@ -44,7 +44,8 @@ Example:
 &nbsp;</br>
 **2. Less**
 
-What is it: Less is another popular CSS preprocessor that allows for variables, nesting, functions, and operations on properties.How to use with Vue 3: You can use Less in Vue 3 by installing the less and less-loader packages.
+- **What is it:** Less is another popular CSS preprocessor that allows for variables, nesting, functions, and operations on properties.
+- **How to use with Vue 3:** You can use Less in Vue 3 by installing the less and less-loader packages.
 
 
 **Steps:** 
