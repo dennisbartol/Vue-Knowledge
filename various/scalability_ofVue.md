@@ -21,7 +21,7 @@ Overall, Vue 3 provides a solid foundation for building scalable applications, w
 
 GitLab's frontend is built using Vue.js, and it serves as a robust example of how Vue.js can be used to create a large-scale, enterprise-level application. Here are some reasons why GitLab is considered a highly scaled website:
 
-1. Large User Base: GitLab is used by millions of developers and organizations worldwide, which means it needs to handle a significant amount of traffic and user interactions.
+<b>1. Large User Base:</b> GitLab is used by millions of developers and organizations worldwide, which means it needs to handle a significant amount of traffic and user interactions.
 
 2. Complex Feature Set: GitLab offers a wide range of features, including code hosting, collaboration tools, project management, and CI/CD pipelines. Managing such a diverse set of features requires a scalable and maintainable frontend architecture.
 
