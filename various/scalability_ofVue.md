@@ -23,10 +23,10 @@ GitLab's frontend is built using Vue.js, and it serves as a robust example of ho
 
 <b>1. Large User Base:</b> GitLab is used by millions of developers and organizations worldwide, which means it needs to handle a significant amount of traffic and user interactions.
 
-2. Complex Feature Set: GitLab offers a wide range of features, including code hosting, collaboration tools, project management, and CI/CD pipelines. Managing such a diverse set of features requires a scalable and maintainable frontend architecture.
+<b>2. Complex Feature Set:</b> GitLab offers a wide range of features, including code hosting, collaboration tools, project management, and CI/CD pipelines. Managing such a diverse set of features requires a scalable and maintainable frontend architecture.
 
-3. Real-time Collaboration: GitLab supports real-time collaboration features like commenting, code reviews, and live editing, which require efficient handling of data updates and synchronization across multiple users.
+<b>3. Real-time Collaboration:</b> GitLab supports real-time collaboration features like commenting, code reviews, and live editing, which require efficient handling of data updates and synchronization across multiple users.
 
-4. Integration with Backend Services: GitLab's frontend interacts with various backend services, including Git repositories, issue trackers, and CI/CD pipelines. Coordinating these interactions and ensuring smooth communication between frontend and backend components is essential for scalability.
+<b>4. Integration with Backend Services:</b> GitLab's frontend interacts with various backend services, including Git repositories, issue trackers, and CI/CD pipelines. Coordinating these interactions and ensuring smooth communication between frontend and backend components is essential for scalability.
 
-5. Customization and Extensibility: GitLab allows users to customize and extend its functionality through plugins and integrations. Supporting a rich ecosystem of plugins requires a flexible and extensible frontend architecture.
+<b>5. Customization and Extensibility:</b> GitLab allows users to customize and extend its functionality through plugins and integrations. Supporting a rich ecosystem of plugins requires a flexible and extensible frontend architecture.
