@@ -61,7 +61,7 @@ export default {
 </script>
 ```
 
-Here, count is a piece of reactive state that the component manages internally.
+Here, 'count' is a piece of reactive state that the component manages internally.
 
 &nbsp;</br>
 **Key Differences**
