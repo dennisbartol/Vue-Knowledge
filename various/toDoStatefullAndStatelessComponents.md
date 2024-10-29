@@ -5,7 +5,7 @@
 
 In Vue 3, stateless and stateful components refer to components' management of data (or "state"). Let's break down each type and their differences:
 
-Stateless Components
+**Stateless Components**
 
 Definition: Stateless components, also called "functional components," don’t manage any internal state. They rely solely on the data passed down from their parent components via props and don’t have reactive data of their own.
 
@@ -28,7 +28,7 @@ export default {
 Here, message is a prop, and there’s no internal state.
 
 
-Stateful Components
+**Stateful Components**
 
 Definition: Stateful components manage internal state using Vue’s reactivity system, which allows them to track and modify data within the component. This state is usually defined using data, reactive, or ref.
 
