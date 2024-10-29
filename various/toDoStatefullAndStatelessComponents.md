@@ -14,7 +14,7 @@ Definition: Stateless components, also called "functional components," don’t m
 Use Case: These components are typically presentational, focusing solely on rendering UI based on the props they receive, which makes them reusable and easy to maintain.
 
 Example:
-
+```js
 <template>
   <p>{{ message }}</p>
 </template>
@@ -26,6 +26,7 @@ export default {
   }
 }
 </script>
+```
 
 Here, message is a prop, and there’s no internal state.
 
