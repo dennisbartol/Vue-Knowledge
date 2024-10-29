@@ -40,7 +40,7 @@ Definition: Stateful components manage internal state using Vue’s reactivity s
 Use Case: These components are ideal for handling complex interactions, like forms or components that require their own state management (e.g., managing inputs, modals).
 
 Example:
-
+```
 <template>
   <div>
     <p>{{ count }}</p>
@@ -59,6 +59,7 @@ export default {
   }
 }
 </script>
+```
 
 Here, count is a piece of reactive state that the component manages internally.
 
