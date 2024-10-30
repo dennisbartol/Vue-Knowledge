@@ -1,4 +1,4 @@
-Difference..... 
+%..... 
 
 
 
@@ -7,12 +7,12 @@ The Options API and Composition API in Vue are two ways of organizing component 
 
 ---
 
-1. Options API (Traditional Vue API)
+**1. Options API (Traditional Vue API)**
 
 The Options API has been the primary way of structuring Vue components since Vue 2. It organizes component logic into specific options like data, methods, computed, and watch, each having its own distinct section in the component.
 
 Example of Options API:
-
+```
 <template>
   <div>
     <p>Count: {{ count }}</p>
@@ -40,6 +40,7 @@ export default {
   },
 };
 </script>
+```
 
 In the Options API:
 
