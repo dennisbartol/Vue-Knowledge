@@ -1,4 +1,4 @@
-%..... 
+<h4>The difference between the options and the composoition API.</h4>
 
 
 
