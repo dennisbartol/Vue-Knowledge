@@ -54,7 +54,7 @@ This API works well for simple or medium-sized components, where having separate
 
 ---
 
-2. Composition API (Introduced in Vue 3)
+**2. Composition API (Introduced in Vue 3)**
 
 The Composition API was introduced in Vue 3 to provide a more flexible and scalable way to handle complex logic, especially as components grow larger. Instead of organizing code by feature type, it organizes logic by functionality, grouping together code that is logically related. The setup() function is central to this API.
 
