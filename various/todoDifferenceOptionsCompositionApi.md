@@ -99,14 +99,14 @@ The Composition API provides reusability by allowing logic to be organized into 
 
 ---
 
-Key Differences
+<h3>Key Differences</h3>
 
 
 ---
 
-When to Use Each API
+**When to Use Each API**
 
-Options API
+**Options API**
 
 Good for simpler projects and smaller components where component logic is straightforward.
 
@@ -115,7 +115,7 @@ Great for beginners or when working on a project that already uses the Options A
 Works well when logical separation is not complex, as it provides a clear, predefined structure.
 
 
-Composition API
+**Composition API**
 
 Ideal for larger or complex components where organizing by logical functionality makes it easier to read and maintain.
 
