@@ -108,20 +108,20 @@ The Composition API provides reusability by allowing logic to be organized into 
 
 **Options API**
 
-Good for simpler projects and smaller components where component logic is straightforward.
+1. Good for simpler projects and smaller components where component logic is straightforward.
 
-Great for beginners or when working on a project that already uses the Options API.
+2. Great for beginners or when working on a project that already uses the Options API.
 
-Works well when logical separation is not complex, as it provides a clear, predefined structure.
+3. Works well when logical separation is not complex, as it provides a clear, predefined structure.
 
 
 **Composition API**
 
-Ideal for larger or complex components where organizing by logical functionality makes it easier to read and maintain.
+1. Ideal for larger or complex components where organizing by logical functionality makes it easier to read and maintain.
 
-Useful when you need reusability or want to share logic between components, since you can easily create composable functions.
+2. Useful when you need reusability or want to share logic between components, since you can easily create composable functions.
 
-Preferred if you need fine-grained control over reactivity or need to use new Vue 3 features like custom composables or advanced reactivity functions (watchEffect, onMounted, etc.).
+3. Preferred if you need fine-grained control over reactivity or need to use new Vue 3 features like custom composables or advanced reactivity functions (watchEffect, onMounted, etc.).
 
 
 
