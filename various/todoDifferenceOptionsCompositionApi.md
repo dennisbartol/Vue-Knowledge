@@ -97,8 +97,8 @@ In the Composition API:
 
 
 
----
 
+&nbsp;</br>
 <h3>Key Differences</h3>
 
 
