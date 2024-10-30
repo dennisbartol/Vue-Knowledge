@@ -127,7 +127,7 @@ Preferred if you need fine-grained control over reactivity or need to use new Vu
 
 ---
 
-Summary
+**Summary**
 
 The Options API is simple, structured, and effective for many Vue projects, while the Composition API offers more flexibility, control, and reusability, which are valuable in larger or more complex applications. Both APIs are fully supported in Vue 3, so you can choose based on your needs or even use them together in a project.
 
