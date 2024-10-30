@@ -59,7 +59,7 @@ This API works well for simple or medium-sized components, where having separate
 The Composition API was introduced in Vue 3 to provide a more flexible and scalable way to handle complex logic, especially as components grow larger. Instead of organizing code by feature type, it organizes logic by functionality, grouping together code that is logically related. The setup() function is central to this API.
 
 Example of Composition API:
-
+```
 <template>
   <div>
     <p>Count: {{ count }}</p>
@@ -85,6 +85,7 @@ export default {
   },
 };
 </script>
+```
 
 In the Composition API:
 
