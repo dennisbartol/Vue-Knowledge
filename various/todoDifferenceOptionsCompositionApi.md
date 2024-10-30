@@ -12,7 +12,7 @@ The Options API and Composition API in Vue are two ways of organizing component 
 The Options API has been the primary way of structuring Vue components since Vue 2. It organizes component logic into specific options like data, methods, computed, and watch, each having its own distinct section in the component.
 
 Example of Options API:
-```
+```js
 <template>
   <div>
     <p>Count: {{ count }}</p>
@@ -59,7 +59,7 @@ This API works well for simple or medium-sized components, where having separate
 The Composition API was introduced in Vue 3 to provide a more flexible and scalable way to handle complex logic, especially as components grow larger. Instead of organizing code by feature type, it organizes logic by functionality, grouping together code that is logically related. The setup() function is central to this API.
 
 Example of Composition API:
-```
+```js
 <template>
   <div>
     <p>Count: {{ count }}</p>
