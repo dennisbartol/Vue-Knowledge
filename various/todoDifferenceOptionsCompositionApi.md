@@ -1,4 +1,4 @@
-<h4>The difference between the options and the composoition API.</h4>
+<h4>The differences between the options and the composoition API.</h4>
 
 
 
@@ -6,7 +6,7 @@ The Options API and Composition API in Vue are two ways of organizing component 
 
 
 
-
+&nbsp;</br>
 **1. Options API (Traditional Vue API)**
 
 The Options API has been the primary way of structuring Vue components since Vue 2. It organizes component logic into specific options like data, methods, computed, and watch, each having its own distinct section in the component.
