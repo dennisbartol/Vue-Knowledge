@@ -44,11 +44,11 @@ export default {
 
 In the Options API:
 
-Component logic is organized by feature types (data, methods, computed properties).
+- Component logic is organized by feature types (data, methods, computed properties).
 
-Each section (option) has a clear purpose, which makes it beginner-friendly and easy to follow.
+- Each section (option) has a clear purpose, which makes it beginner-friendly and easy to follow.
 
-This API works well for simple or medium-sized components, where having separate sections for data, methods, computed, etc., helps with organization.
+- This API works well for simple or medium-sized components, where having separate sections for data, methods, computed, etc., helps with organization.
 
 
 
@@ -89,11 +89,11 @@ export default {
 
 In the Composition API:
 
-All logic is grouped by feature within the setup() function.
+- All logic is grouped by feature within the setup() function.
 
-Refs (ref()) and reactive objects (reactive()) are used for state, and computed() and watch() functions are used for derived state and watchers.
+- Refs (ref()) and reactive objects (reactive()) are used for state, and computed() and watch() functions are used for derived state and watchers.
 
-The Composition API provides reusability by allowing logic to be organized into composable functions that can be reused across components.
+- The Composition API provides reusability by allowing logic to be organized into composable functions that can be reused across components.
 
 
 
