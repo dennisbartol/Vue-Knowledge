@@ -1,4 +1,4 @@
-
+#### Mouse hover, video playback. 
 
 To convert this code to Vue 3, we’ll need to create a Vue component that sets up the video elements and manages the mouseenter and mouseleave events for play and pause functionality. Here’s how this code would look rewritten as a Vue 3 single-file component:
 
