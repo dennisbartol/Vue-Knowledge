@@ -108,7 +108,7 @@ body {
 
 Explanation of Changes
 
-1. Template:
+**1. Template:**
 
 Use v-for to iterate over the videos array, creating a div for each video source. This dynamically generates each video element and associates its index with mouse events.
 
@@ -116,7 +116,7 @@ Bind @mouseenter and @mouseleave events to trigger the playVideo and pauseVideo 
 
 
 
-2. Script:
+**2. Script:**
 
 We define videos, which is an array of video file paths.
 
@@ -128,7 +128,7 @@ In onMounted, we adjust videoRefs to match the number of videos in the array.
 
 
 
-3. Scoped Styling:
+**3. Scoped Styling:**
 
 CSS is included in the <style scoped> block to ensure styles apply only to this component.
 
