@@ -21,7 +21,9 @@ Nuxt.js supports GraphQL integration through various plugins and libraries:
 
 1. Apollo Client: The most popular choice for using GraphQL with Nuxt.js. You can install the Apollo module for Nuxt.js to simplify GraphQL integration:
 
+```
 npm install @nuxtjs/apollo
+```
 
 Configure it in your Nuxt project:
 
