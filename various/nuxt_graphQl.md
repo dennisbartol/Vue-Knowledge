@@ -1,4 +1,4 @@
-
+### GraphQL in Vue. 
 
 
 GraphQL can be used to communicate with the backend when building applications with Nuxt.js. GraphQL is a powerful query language for APIs that enables efficient, flexible, and type-safe communication between the frontend (Nuxt.js) and the backend.
