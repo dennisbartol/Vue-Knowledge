@@ -25,6 +25,7 @@ npm install @nuxtjs/apollo
 
 Configure it in your Nuxt project:
 
+``` js
 export default {
   modules: ['@nuxtjs/apollo'],
   apollo: {
@@ -35,6 +36,7 @@ export default {
     },
   },
 }
+```
 
 After setup, you can use GraphQL queries and mutations in your components.
 
