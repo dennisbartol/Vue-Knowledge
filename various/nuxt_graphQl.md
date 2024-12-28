@@ -48,7 +48,7 @@ After setup, you can use GraphQL queries and mutations in your components.
 
 
 
-Backend Support for GraphQL
+**Backend Support for GraphQL**
 
 GraphQL needs a server-side implementation to process queries and mutations. Popular backend technologies for GraphQL include:
 
@@ -61,7 +61,7 @@ Ruby (e.g., GraphQL-Ruby)
 Python (e.g., Graphene)
 
 
-Benefits of Using GraphQL with Nuxt.js
+**Benefits of Using GraphQL with Nuxt.js**
 
 Flexible data fetching tailored to your frontend needs.
 
