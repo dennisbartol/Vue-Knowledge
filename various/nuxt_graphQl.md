@@ -63,13 +63,13 @@ Python (e.g., Graphene)
 
 **Benefits of Using GraphQL with Nuxt.js**
 
-Flexible data fetching tailored to your frontend needs.
+- Flexible data fetching tailored to your frontend needs.
 
-Strongly-typed schema ensures predictable API responses.
+- Strongly-typed schema ensures predictable API responses.
 
-Reduces the number of API requests compared to REST.
+- Reduces the number of API requests compared to REST.
 
-Enables real-time data updates via subscriptions.
+- Enables real-time data updates via subscriptions.
 
 
 If your backend supports GraphQL, integrating it with Nuxt.js can significantly improve the efficiency and developer experience of your application.
