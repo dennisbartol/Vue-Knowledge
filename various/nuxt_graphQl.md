@@ -52,13 +52,13 @@ After setup, you can use GraphQL queries and mutations in your components.
 
 GraphQL needs a server-side implementation to process queries and mutations. Popular backend technologies for GraphQL include:
 
-Node.js (e.g., using Apollo Server, Express with express-graphql)
+- Node.js (e.g., using Apollo Server, Express with express-graphql)
 
-PHP (e.g., Lighthouse, GraphQLite)
+- PHP (e.g., Lighthouse, GraphQLite)
 
-Ruby (e.g., GraphQL-Ruby)
+- Ruby (e.g., GraphQL-Ruby)
 
-Python (e.g., Graphene)
+- Python (e.g., Graphene)
 
 
 **Benefits of Using GraphQL with Nuxt.js**
