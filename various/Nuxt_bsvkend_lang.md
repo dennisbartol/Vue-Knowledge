@@ -1,4 +1,4 @@
-
+#### Nuxt backend language. 
 
 Nuxt.js does not use PHP or SQL on the backend. Nuxt is a framework for building modern web applications using JavaScript, specifically with Vue.js, and it focuses on the frontend and server-side rendering (SSR).
 
