@@ -63,11 +63,11 @@ export default {
 
 **Key Characteristics of methods in Vue 3**
 
-Context Binding: Methods in Vue automatically bind this to the Vue instance, so you can access reactive data, computed properties, and other methods using this.
+**1. Context Binding:** Methods in Vue automatically bind this to the Vue instance, so you can access reactive data, computed properties, and other methods using this.
 
-Not Reactive: Unlike computed properties, methods do not cache their return values. They are executed every time they are called.
+**2. Not Reactive:** Unlike computed properties, methods do not cache their return values. They are executed every time they are called.
 
-Separation from setup: In Vue 3's Composition API, you may not use the methods option directly; instead, you define functions inside the setup function. However, methods remains part of the Options API, providing backward compatibility and ease of use for developers familiar with Vue 2.
+**3. Separation from setup: ** In Vue 3's Composition API, you may not use the methods option directly; instead, you define functions inside the setup function. However, methods remains part of the Options API, providing backward compatibility and ease of use for developers familiar with Vue 2.
 
 
 By using methods, you can implement interactive functionality within Vue components effectively.
