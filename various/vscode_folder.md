@@ -7,18 +7,21 @@ Common Files in .vscode
 
 1. settings.json: Contains project-specific editor settings. Examples include:
 
+```
 {
     "editor.formatOnSave": true,
     "eslint.enable": true,
     "vetur.validation.template": false,
     "volar.autoCompleteRefs": true
 }
+```
 
 This file can override global settings for better consistency in the project.
 
 
 2. extensions.json: Recommends extensions for the project. For example:
 
+```
 {
     "recommendations": [
         "esbenp.prettier-vscode",
@@ -26,12 +29,14 @@ This file can override global settings for better consistency in the project.
         "johnsoncodehk.volar"
     ]
 }
+```
 
 When someone opens the project in VS Code, they'll be prompted to install these extensions.
 
 
 3. launch.json: Configures debug settings, especially for tools like Node.js or browsers. Example:
 
+```
 {
     "version": "0.2.0",
     "configurations": [
@@ -44,10 +49,12 @@ When someone opens the project in VS Code, they'll be prompted to install these 
         }
     ]
 }
+```
 
 
 4. tasks.json: Defines custom tasks for automation. Example:
 
+```
 {
     "version": "2.0.0",
     "tasks": [
@@ -59,6 +66,7 @@ When someone opens the project in VS Code, they'll be prompted to install these 
         }
     ]
 }
+```
 
 These tasks can be run directly from VS Code's task runner.
 
