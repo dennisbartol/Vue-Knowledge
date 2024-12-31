@@ -3,10 +3,12 @@
 
 In Vue 3, the :methods property under export default in a Vue component is used to define the methods that can be used within that component. These methods typically include custom functions that perform actions, handle events, or manipulate data associated with the component.
 
-Purpose of methods in Vue 3
+
+**Purpose of methods in Vue 3**
 
 1. Event Handlers: Methods are commonly used as event handlers for user interactions like clicks, key presses, or form submissions.
 
+```js
 <template>
   <button @click="handleClick">Click me</button>
 </template>
@@ -20,6 +22,7 @@ export default {
   }
 }
 </script>
+```
 
 
 2. Data Manipulation: Methods allow you to create reusable functions to modify or process the component's data.
@@ -57,7 +60,7 @@ export default {
 
 
 
-Key Characteristics of methods in Vue 3
+**Key Characteristics of methods in Vue 3**
 
 Context Binding: Methods in Vue automatically bind this to the Vue instance, so you can access reactive data, computed properties, and other methods using this.
 
