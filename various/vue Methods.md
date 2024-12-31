@@ -70,5 +70,6 @@ export default {
 **3. Separation from setup:** In Vue 3's Composition API, you may not use the methods option directly; instead, you define functions inside the setup function. However, methods remains part of the Options API, providing backward compatibility and ease of use for developers familiar with Vue 2.
 
 
+&nbsp;</br>
 By using methods, you can implement interactive functionality within Vue components effectively.
 
