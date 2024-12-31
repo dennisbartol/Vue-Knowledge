@@ -1,4 +1,4 @@
-### Vue 3 methods. 
+### Vue 3 methods
 
 
 In Vue 3, the :methods property under export default in a Vue component is used to define the methods that can be used within that component. These methods typically include custom functions that perform actions, handle events, or manipulate data associated with the component.
