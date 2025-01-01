@@ -6,15 +6,15 @@ In a Vue 3 project, the "mixins" directory can be placed in a location that alig
 
 Place the mixins directory directly inside the src folder, like this:
 
-src/
-├── components/
-├── mixins/
-├── views/
-├── assets/
-├── router/
-├── store/
-├── App.vue
-├── main.js
+src/</br>
+├── components/</br>
+├── mixins/</br>
+├── views/</br>
+├── assets/</br>
+├── router/</br>
+├── store/</br>
+├── App.vue</br>
+├── main.js</br>
 
 **Why This Location?**
 
