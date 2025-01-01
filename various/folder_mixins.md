@@ -49,13 +49,13 @@ src/</br>
 &nbsp;</br>
 **Best Practices**
 
-1. Use Composition API Where Possible: In Vue 3, the Composition API often replaces mixins for sharing logic across components. Consider using composables instead of mixins where applicable.
+**1. Use Composition API Where Possible:** In Vue 3, the Composition API often replaces mixins for sharing logic across components. Consider using composables instead of mixins where applicable.
 
 
-2. Descriptive File Names: Name your mixins descriptively (e.g., FormValidationMixin.js).
+**2. Descriptive File Names:** Name your mixins descriptively (e.g., FormValidationMixin.js).
 
 
-3. Document Usage: Include comments or documentation on how and where to use the mixins.
+**3. Document Usage:** Include comments or documentation on how and where to use the mixins.
 
 
 
