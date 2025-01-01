@@ -16,6 +16,7 @@ src/</br>
 ├── App.vue</br>
 ├── main.js</br>
 
+&nbsp;</br>
 **Why This Location?**
 
 1. Logical Organization: Mixins are reusable pieces of functionality, and placing them in their own directory keeps them separate from components, views, and other project-specific files.
@@ -27,7 +28,7 @@ src/</br>
 3. Scalability: As your project grows, this organization helps maintain clarity.
 
 
-&nbsp";</br>
+&nbsp;</br>
 **Alternative Locations**
 
 If your project uses a modular structure (e.g., feature-based organization), you might place mixins in a shared or utils folder, depending on how reusable they are across features:
