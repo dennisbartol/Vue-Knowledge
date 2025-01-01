@@ -1,4 +1,4 @@
-
+### Mixins
 
 In a Vue 3 project, the "mixins" directory can be placed in a location that aligns with the overall structure of your project, typically under the src directory. The placement ensures consistency and accessibility. Here’s a common approach:
 
