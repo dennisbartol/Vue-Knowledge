@@ -33,20 +33,20 @@ src/</br>
 If your project uses a modular structure (e.g., feature-based organization), you might place mixins in a shared or utils folder, depending on how reusable they are across features:
 
 
-src/
+src/</br>
 ├── features/</br>
 │   ├── feature1/</br>
-│   │   ├── mixins/
-│   │   ├── components/
-│   │   └── views/
-│   └── feature2/
-├── shared/
-│   ├── mixins/
-│   ├── components/
-│   └── utils/
+│   │   ├── mixins/</br>
+│   │   ├── components/</br>
+│   │   └── views/</br>
+│   └── feature2/</br>
+├── shared/</br>
+│   ├── mixins/</br>
+│   ├── components/</br>
+│   └── utils/</br>
 
 
-//
+\\
 **Best Practices**
 
 1. Use Composition API Where Possible: In Vue 3, the Composition API often replaces mixins for sharing logic across components. Consider using composables instead of mixins where applicable.
