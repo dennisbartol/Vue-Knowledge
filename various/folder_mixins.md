@@ -58,6 +58,6 @@ src/</br>
 **3. Document Usage:** Include comments or documentation on how and where to use the mixins.
 
 
-
+&nbsp;</br>
 By following these practices, you ensure that your project remains clean, maintainable, and aligned with modern Vue 3 conventions.
 
