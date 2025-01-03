@@ -7,6 +7,7 @@ Purpose of methods in Vue 3
 
 1. Event Handlers: Methods are commonly used as event handlers for user interactions like clicks, key presses, or form submissions.
 
+``` js
 <template>
   <button @click="handleClick">Click me</button>
 </template>
@@ -20,10 +21,11 @@ export default {
   }
 }
 </script>
-
+```
 
 2. Data Manipulation: Methods allow you to create reusable functions to modify or process the component's data.
 
+``` js
 <template>
   <div>
     <p>{{ message }}</p>
@@ -45,7 +47,7 @@ export default {
   }
 }
 </script>
-
+```
 
 3. Code Organization: They help separate logic from the template, making the codebase cleaner and more maintainable.
 
