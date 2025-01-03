@@ -5,7 +5,7 @@ In Vue 3, the :methods property under export default in a Vue component is used 
 
 Purpose of methods in Vue 3
 
-1. Event Handlers: Methods are commonly used as event handlers for user interactions like clicks, key presses, or form submissions.
+**1. Event Handlers:** Methods are commonly used as event handlers for user interactions like clicks, key presses, or form submissions.
 
 ``` js
 <template>
@@ -23,7 +23,7 @@ export default {
 </script>
 ```
 
-2. Data Manipulation: Methods allow you to create reusable functions to modify or process the component's data.
+**2. Data Manipulation:** Methods allow you to create reusable functions to modify or process the component's data.
 
 ``` js
 <template>
