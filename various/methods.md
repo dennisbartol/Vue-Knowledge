@@ -49,13 +49,13 @@ export default {
 </script>
 ```
 
-3. Code Organization: They help separate logic from the template, making the codebase cleaner and more maintainable.
+**3. Code Organization:** They help separate logic from the template, making the codebase cleaner and more maintainable.
 
 
-4. Reusability: Methods can be reused multiple times within the template or other parts of the component.
+**4. Reusability:** Methods can be reused multiple times within the template or other parts of the component.
 
 
-5. Accessibility from Lifecycle Hooks: You can call methods within lifecycle hooks, such as mounted, to perform operations when the component is initialized or updated.
+**5. Accessibility from Lifecycle Hooks:** You can call methods within lifecycle hooks, such as mounted, to perform operations when the component is initialized or updated.
 
 
 
