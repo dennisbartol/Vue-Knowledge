@@ -58,8 +58,8 @@ export default {
 **5. Accessibility from Lifecycle Hooks:** You can call methods within lifecycle hooks, such as mounted, to perform operations when the component is initialized or updated.
 
 
-
-Key Characteristics of methods in Vue 3
+&nbsp;</br>
+**Key Characteristics of methods in Vue 3**
 
 Context Binding: Methods in Vue automatically bind this to the Vue instance, so you can access reactive data, computed properties, and other methods using this.
 
