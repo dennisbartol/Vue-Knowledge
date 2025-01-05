@@ -6,10 +6,10 @@ GraphQL is commonly used to communicate with the backend in modern web developme
 
 GraphQL offers several advantages for communication between the frontend and backend:
 
-1. Flexible Queries: Clients can request exactly the data they need, reducing over-fetching or under-fetching.
-2. Single Endpoint: Instead of multiple REST endpoints, GraphQL uses a single endpoint for all queries and mutations.
-3. Strong Typing: GraphQL has a schema that defines the shape of your data, making it easier to understand and debug.
-4. Real-Time Data: With subscriptions, GraphQL can support real-time updates, making it great for modern, dynamic applications.
+**1. Flexible Queries:** Clients can request exactly the data they need, reducing over-fetching or under-fetching.
+**2. Single Endpoint:** Instead of multiple REST endpoints, GraphQL uses a single endpoint for all queries and mutations.
+**3. Strong Typing:** GraphQL has a schema that defines the shape of your data, making it easier to understand and debug.
+**4. Real-Time Data:** With subscriptions, GraphQL can support real-time updates, making it great for modern, dynamic applications.
 
 &nbsp;</br>
 **How to Use GraphQL with Nuxt.js**
