@@ -20,9 +20,11 @@ Install the Apollo Client and its Nuxt module:
 
 ``` js
 npm install @nuxtjs/apollo graphql
+```
+
 Configure Apollo in your nuxt.config.js:
-javascript
-Code kopiëren
+
+``` javascript
 export default {
   modules: ['@nuxtjs/apollo'],
   apollo: {
