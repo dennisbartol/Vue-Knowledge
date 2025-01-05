@@ -11,7 +11,7 @@ Key Features of Nuxt.js:
 **3. API-Focused:** Nuxt applications often rely on APIs to handle data processing. For example, you might set up a REST API or GraphQL API that connects to your preferred backend technologies, including PHP or SQL if desired.
 
 
-
+\\
 **Using PHP and SQL with Nuxt**
 
 If you want to use PHP and SQL with Nuxt:
@@ -20,7 +20,7 @@ PHP Backend: You can build your API with PHP (e.g., using Laravel, Symfony, or p
 
 SQL Databases: If PHP connects to your SQL database, Nuxt can send requests to retrieve or manipulate data through your PHP API.
 
-
+\\
 **Common Backend Technologies with Nuxt**
 
 For a full-stack Nuxt.js application, typical backend choices include:
