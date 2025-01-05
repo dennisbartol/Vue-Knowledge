@@ -11,6 +11,7 @@ GraphQL offers several advantages for communication between the frontend and bac
 3. Strong Typing: GraphQL has a schema that defines the shape of your data, making it easier to understand and debug.
 4. Real-Time Data: With subscriptions, GraphQL can support real-time updates, making it great for modern, dynamic applications.
 
+&nbsp;</br>
 **How to Use GraphQL with Nuxt.js**
 To integrate GraphQL into a Nuxt.js application, you can consider the following tools. 
 
@@ -49,6 +50,7 @@ export default {
 };
 ```
 
+&nbsp;</br>
 **Other GraphQL Clients:**
 
 You can also use other libraries like urql or graphql-request for lightweight GraphQL integration.
