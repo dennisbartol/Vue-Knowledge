@@ -52,11 +52,15 @@ You can also use other libraries like urql or graphql-request for lightweight Gr
 **GraphQL Server:**
 
 Set up a backend GraphQL server using frameworks like:
-Apollo Server (Node.js)
-Hasura (auto-generated GraphQL API for your database)
-Prisma (GraphQL ORM)
-Use Cases for GraphQL with Nuxt
-Headless CMS: Communicate with CMS platforms like Strapi or Contentful using GraphQL.
-Custom APIs: Build a custom backend with a GraphQL API for flexible data fetching.
-Real-Time Applications: Use GraphQL subscriptions for real-time updates in your Nuxt app.
+- Apollo Server (Node.js)
+- Hasura (auto-generated GraphQL API for your database)
+- Prisma (GraphQL ORM)
+
+**Use Cases for GraphQL with Nuxt**
+
+- Headless CMS: Communicate with CMS platforms like Strapi or Contentful using GraphQL.
+- Custom APIs: Build a custom backend with a GraphQL API for flexible data fetching.
+- Real-Time Applications: Use GraphQL subscriptions for real-time updates in your Nuxt app.
+
 GraphQL fits well with Nuxt's dynamic and server-side rendering capabilities, making it an excellent choice for modern, data-driven applications.
+
