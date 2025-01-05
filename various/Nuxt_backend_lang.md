@@ -15,16 +15,14 @@ Key Features of Nuxt.js:
 **Using PHP and SQL with Nuxt**
 
 If you want to use PHP and SQL with Nuxt:
+- PHP Backend: You can build your API with PHP (e.g., using Laravel, Symfony, or plain PHP) and have Nuxt make HTTP requests to it.
 
-PHP Backend: You can build your API with PHP (e.g., using Laravel, Symfony, or plain PHP) and have Nuxt make HTTP requests to it.
-
-SQL Databases: If PHP connects to your SQL database, Nuxt can send requests to retrieve or manipulate data through your PHP API.
+- SQL Databases: If PHP connects to your SQL database, Nuxt can send requests to retrieve or manipulate data through your PHP API.
 
 \
 **Common Backend Technologies with Nuxt**
 
 For a full-stack Nuxt.js application, typical backend choices include:
-
 - Node.js (e.g., Express, Koa)
 
 - Serverless functions (e.g., AWS Lambda, Vercel)
