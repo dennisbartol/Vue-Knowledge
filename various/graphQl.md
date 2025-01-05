@@ -2,17 +2,19 @@
 
 GraphQL is commonly used to communicate with the backend in modern web development, including when building applications with Nuxt.js. Nuxt itself does not impose a specific method for backend communication, but it supports GraphQL seamlessly through plugins, libraries, and its ecosystem.
 
-Why Use GraphQL with Nuxt?
+**Why Use GraphQL with Nuxt?**
+
 GraphQL offers several advantages for communication between the frontend and backend:
 
-Flexible Queries: Clients can request exactly the data they need, reducing over-fetching or under-fetching.
-Single Endpoint: Instead of multiple REST endpoints, GraphQL uses a single endpoint for all queries and mutations.
-Strong Typing: GraphQL has a schema that defines the shape of your data, making it easier to understand and debug.
-Real-Time Data: With subscriptions, GraphQL can support real-time updates, making it great for modern, dynamic applications.
-How to Use GraphQL with Nuxt.js
-To integrate GraphQL into a Nuxt.js application, you can use the following tools:
+1. Flexible Queries: Clients can request exactly the data they need, reducing over-fetching or under-fetching.
+2. Single Endpoint: Instead of multiple REST endpoints, GraphQL uses a single endpoint for all queries and mutations.
+3. Strong Typing: GraphQL has a schema that defines the shape of your data, making it easier to understand and debug.
+4. Real-Time Data: With subscriptions, GraphQL can support real-time updates, making it great for modern, dynamic applications.
 
-Apollo Client:
+**How to Use GraphQL with Nuxt.js**
+To integrate GraphQL into a Nuxt.js application, you can consider the following tools. 
+
+**Apollo Client:**
 
 Install the Apollo Client and its Nuxt module:
 
