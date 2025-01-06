@@ -52,7 +52,9 @@ Steps to Implement SSR in Vue 3
 
 Install the required dependencies:
 
+```JS
 npm install vue @vue/server-renderer express
+```
 
 Create a basic Express server:
 
@@ -78,7 +80,7 @@ app.listen(3000, () => {
 });
 ```
 
-
+\
 **2. Hydration on the Client:**
 
 Create a client-side Vue app to match the server-rendered content and hydrate it:
@@ -110,6 +112,6 @@ Static Site Generation (SSG): HTML is generated at build time and served as stat
 
 ISR (Incremental Static Regeneration): Combines SSG and SSR, allowing certain pages to be rendered dynamically while others remain static.
 
-
+\
 Vue 3's SSR capabilities make it ideal for building high-performance, SEO-friendly web applications that deliver a great user experience.
 
