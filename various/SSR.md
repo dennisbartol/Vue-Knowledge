@@ -49,7 +49,7 @@ Vue 3 provides built-in support for SSR through its @vue/server-renderer package
 \
 Steps to Implement SSR in Vue 3
 
-+ Set Up the Server:
++ Set up a server:
 
 Install the required dependencies:
 
