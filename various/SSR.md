@@ -9,7 +9,7 @@ SSR (Server-Side Rendering) refers to the process of rendering Vue components on
 
 **1. Server-Side Rendering:**
 
-The server runs the Vue app and generates an HTML string with the fully rendered components.
+A server runs the Vue app and generates an HTML string with the fully rendered components.
 
 This HTML is sent to the client (browser), allowing users to see content immediately without waiting for JavaScript to load.
 
