@@ -31,7 +31,7 @@ Search engine crawlers can index the pre-rendered HTML, making it easier for you
 
 
 
-**2. Improved Performance:**</br">
+**2. Improved Performance:**</br>
 Users see content faster because the HTML is delivered directly, without waiting for JavaScript execution.
 
 
