@@ -56,6 +56,7 @@ npm install vue @vue/server-renderer express
 
 Create a basic Express server:
 
+```js
 const express = require('express');
 const { createSSRApp } = require('vue');
 const { renderToString } = require('@vue/server-renderer');
@@ -75,19 +76,20 @@ app.get('*', async (req, res) => {
 app.listen(3000, () => {
   console.log('Server is running at http://localhost:3000');
 });
+```
 
 
-
-2. Hydration on the Client:
+**2. Hydration on the Client:**
 
 Create a client-side Vue app to match the server-rendered content and hydrate it:
 
+```JS
 import { createApp } from 'vue';
 import App from './App.vue';
 
 const app = createApp(App);
 app.mount('#app');
-
+```
 
 
 
