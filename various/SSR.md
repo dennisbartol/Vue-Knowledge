@@ -26,17 +26,17 @@ Vue takes over the pre-rendered HTML and "hydrates" it, attaching event listener
 \
 **Key Benefits of SSR**
 
-**1. Better SEO:**
+**1. Better SEO:**</br>
 Search engine crawlers can index the pre-rendered HTML, making it easier for your content to rank well in search engines.
 
 
 
-**2. Improved Performance:**
+**2. Improved Performance:**</br">
 Users see content faster because the HTML is delivered directly, without waiting for JavaScript execution.
 
 
 
-**3. Faster Time-to-Interactive:**
+**3. Faster Time-to-Interactive:**</br>
 While the server delivers content, hydration enables interactivity faster than loading an entirely client-rendered app.
 
 
