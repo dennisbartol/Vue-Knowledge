@@ -91,9 +91,9 @@ const app = createApp(App);
 app.mount('#app');
 ```
 
-
-
-Frameworks That Simplify SSR
+\
+\
+**Frameworks That Simplify SSR**
 
 Instead of setting up SSR manually, you can use frameworks that streamline the process:
 
