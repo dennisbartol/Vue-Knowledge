@@ -46,6 +46,7 @@ While the server delivers content, hydration enables interactivity faster than l
 
 Vue 3 provides built-in support for SSR through its @vue/server-renderer package. This allows you to render Vue apps on the server.
 
+\
 Steps to Implement SSR in Vue 3
 
 1. Set Up the Server:
