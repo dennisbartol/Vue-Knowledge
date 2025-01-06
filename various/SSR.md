@@ -102,7 +102,7 @@ Instead of setting up SSR manually, you can use frameworks that streamline the p
 
 2. Vite + SSR Plugins: Tools like vite-plugin-ssr simplify SSR with Vue 3.
 
-
+\
 **SSR vs. Other Rendering Strategies**
 
 1. Client-Side Rendering (CSR): The entire app is rendered in the browser after JavaScript is downloaded.
