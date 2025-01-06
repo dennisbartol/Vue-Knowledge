@@ -3,9 +3,11 @@
 
 SSR (Server-Side Rendering) refers to the process of rendering Vue components on the server and delivering fully rendered HTML to the browser, instead of relying solely on client-side rendering (CSR). This approach is particularly useful for improving performance, SEO, and user experience.
 
-How SSR Works in Vue 3
+\
+\
+**How SSR Works in Vue 3**
 
-1. Server-Side Rendering:
+**1. Server-Side Rendering:**
 
 The server runs the Vue app and generates an HTML string with the fully rendered components.
 
@@ -13,18 +15,18 @@ This HTML is sent to the client (browser), allowing users to see content immedia
 
 
 
-2. Hydration:
+**2. Hydration:**
 
 Once the HTML is delivered, the browser downloads and executes the Vue.js JavaScript code.
 
 Vue takes over the pre-rendered HTML and "hydrates" it, attaching event listeners and making the app interactive.
 
 
+\
+\
+**Key Benefits of SSR**
 
-
-Key Benefits of SSR
-
-1. Better SEO:
+**1. Better SEO:**
 
 Search engine crawlers can index the pre-rendered HTML, making it easier for your content to rank well in search engines.
 
