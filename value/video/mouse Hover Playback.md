@@ -105,8 +105,8 @@ body {
 }
 </style>
 ```
-
-Explanation of Changes
+\
+#### **Explanation of Changes**
 
 **1. Template:**
 
