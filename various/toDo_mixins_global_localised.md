@@ -68,8 +68,8 @@ export default {
 };
 </script>
 ```
-
 \
+
 #### Pros and Cons of Global Mixins
 
 **Pros:**
