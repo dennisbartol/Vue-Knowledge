@@ -1,9 +1,6 @@
 ### Mixins
 
-In a Vue 3 project, the "mixins" directory can be placed in a location that aligns with the overall structure of your project, typically under the src directory. The placement ensures consistency and accessibility. <ins>A mixin is a reusable piece of logic that can be shared across Vue components</ins>. Mixins are merged into the component they are used in. For example, if you have a set of utility methods for playing audio, you can write those once in a mixin and include the mixin in any component that needs it.
-
-
-Here’s a common approach:
+In a Vue 3 project, the "mixins" directory can be placed in a location that aligns with the overall structure of your project, typically under the src directory. The placement ensures consistency and accessibility. <ins>A mixin is a reusable piece of logic that can be shared across Vue components</ins>. Mixins are merged into the component they are used in. For example, if you have a set of utility methods for playing audio, you can write those once in a mixin and include the mixin in any component that needs it. Here’s a common approach:
 
 **Recommended Location:**
 
