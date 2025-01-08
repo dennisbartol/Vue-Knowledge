@@ -77,6 +77,6 @@ export default {
 2. DRY Code: Reduces the need to import utility functions in multiple components.
 
 **Cons:**
-1. Global Scope Pollution: It adds properties or methods to all components, which might lead to unintended conflicts.
-2. Reduced Clarity: It's harder to track where a method or property is coming from because it's not explicitly imported into the component.
+1. Global Scope Pollution: It adds properties or methods to all components, <ins>which might lead to unintended conflicts</ins>.
+2. Reduced Clarity: It's <ins>harder to track where a method or property is coming from</ins> because it's not explicitly imported into the component.
 
