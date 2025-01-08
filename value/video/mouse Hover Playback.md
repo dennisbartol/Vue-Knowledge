@@ -110,21 +110,21 @@ body {
 
 **1. Template:**
 
-Use v-for to iterate over the videos array, creating a div for each video source. This dynamically generates each video element and associates its index with mouse events.
+- Use v-for to iterate over the videos array, creating a div for each video source. This dynamically generates each video element and associates its index with mouse events.
 
-Bind @mouseenter and @mouseleave events to trigger the playVideo and pauseVideo methods respectively, passing the current index.
+- Bind <code>@mouseenter</code> and <code>@mouseleave</code> events to trigger the playVideo and pauseVideo methods respectively, passing the current index.
 
 
 
 **2. Script:**
 
-We define videos, which is an array of video file paths.
+- We define videos, which is an array of video file paths.
 
-videoRefs is a reference array to store direct DOM references to the video elements.
+- videoRefs is a reference array to store direct DOM references to the video elements.
 
-playVideo and pauseVideo functions are defined to control video playback based on index.
+- playVideo and pauseVideo functions are defined to control video playback based on index.
 
-In onMounted, we adjust videoRefs to match the number of videos in the array.
+- In onMounted, we adjust videoRefs to match the number of videos in the array.
 
 
 
@@ -134,6 +134,6 @@ CSS is included in the <style scoped> block to ensure styles apply only to this 
 
 
 
-
+\
 This Vue 3 component mirrors the original functionality but leverages Vue's reactivity and scoped component structure.
 
