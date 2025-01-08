@@ -1,7 +1,7 @@
 ### Data 
 
 
-**Definition and Usage**
+**Definition and Usage**</br>
 The data option is a function that <ins>returns an object with all the data properties inside</ins>.
 
 The object returned by the data function can be accessed with <code>this.$data</code>, and a specific data property 'count' can be accessed with this.$data.count, or simply this.count.
