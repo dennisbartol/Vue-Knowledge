@@ -9,9 +9,9 @@ A global mixin in Vue 3 is a feature provided by the Vue framework (which is not
 A global mixin applies a mixin to every single Vue component in your application. Once registered, it becomes part of all components automatically.
 
 \
-Example of a Global Mixin
-Define the Mixin
-Create a mixin file (e.g., src/mixins/audioMixin.js):
+**Example of a Global Mixin**
+- Define the Mixin</br>
+- Create a mixin file (e.g., src/mixins/audioMixin.js):</br>
 
 ```javascript
 export default {
