@@ -120,11 +120,11 @@ body {
 
 - We define videos, which is an array of video file paths.
 
-- videoRefs is a reference array to store direct DOM references to the video elements.
+- <code>videoRefs</code> is a reference array to store direct DOM references to the video elements.
 
-- playVideo and pauseVideo functions are defined to control video playback based on index.
+- <code>playVideo</code> and pauseVideo</code> functions are defined to control video playback based on index.
 
-- In onMounted, we adjust videoRefs to match the number of videos in the array.
+- In <code>onMounted</code>, we adjust <code>videoRefs</code> to match the number of videos in the array.
 
 
 
