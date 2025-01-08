@@ -3,7 +3,7 @@
 A global mixin in Vue 3 is a feature provided by the Vue framework (which is not a standard part of JavaScript) that allows you to define functionality (like methods, data, or lifecycle hooks) that is automatically available in every component in your application. It helps to avoid repetitive code when multiple components need the same behavior or utility functions.
 
 **What Is a Mixin?**</br>
-A mixin is a reusable piece of logic that can be shared across Vue components. Mixins are merged into the component they are used in. For example, if you have a set of utility methods for playing audio, you can write those once in a mixin and include the mixin in any component that needs it.
+<ins>A mixin is a reusable piece of logic that can be shared across Vue components</ins>. Mixins are merged into the component they are used in. For example, if you have a set of utility methods for playing audio, you can write those once in a mixin and include the mixin in any component that needs it.
 
 **What Is a Global Mixin?**</br>
 A global mixin applies a mixin to every single Vue component in your application. Once registered, it becomes part of all components automatically.
