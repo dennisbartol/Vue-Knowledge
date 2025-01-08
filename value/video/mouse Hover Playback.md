@@ -122,7 +122,7 @@ body {
 
 - <code>videoRefs</code> is a reference array to store direct DOM references to the video elements.
 
-- <code>playVideo</code> and pauseVideo</code> functions are defined to control video playback based on index.
+- <code>playVideo</code> and <code>pauseVideo</code> functions are defined to control video playback based on index.
 
 - In <code>onMounted</code>, we adjust <code>videoRefs</code> to match the number of videos in the array.
 
