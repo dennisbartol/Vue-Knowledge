@@ -7,9 +7,8 @@ Options in Vue are the different options available to us on the Vue instance whe
 
 |Option	 | Description|
 | ----| ----------------- |
-|data	 | contains the data properties we set up and their initial values|
-| methods | 	
-contains the methods we write | 
+|data	 | Contains the data properties we set up and their initial values. |
+| methods | Contains the methods we write. | 
 
 | computed | 
 contains the computed properties we make, that are used as data properties, but are written like functions with a return and no arguments, and gets called whenever a dependency is changed. | 
