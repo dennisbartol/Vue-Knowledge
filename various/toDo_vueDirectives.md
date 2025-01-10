@@ -2,6 +2,7 @@
 
 Directives are a core feature in Vue 3 that provide a declarative way to interact with the DOM. They simplify tasks like binding data, managing events, and conditionally rendering content while keeping templates clean and readable. Whether you're using built-in directives or creating custom ones, they are essential for building dynamic, interactive applications with Vue.
 
+<p>The following directives are available:</p>
 
 | Directive	| Description |
 | --- | --------|
