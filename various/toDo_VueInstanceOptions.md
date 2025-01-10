@@ -9,7 +9,7 @@ Options in Vue are the different options available to us on the Vue instance whe
 | ----| ----------------- |
 |data	 | contains the data properties we set up and their initial values|
 
-
+| ----| ----------------- |
 | methods | 	
 contains the methods we write | 
 
