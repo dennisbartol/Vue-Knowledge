@@ -4,9 +4,9 @@
 
 Options in Vue are the different options available to us on the Vue instance when using the Options API.
 
-| --------------------- |
+
 |Option	 | Description|
-| --------------------- |
+| ----| ----------------- |
 |data	 | contains the data properties we set up and their initial values|
 
 
