@@ -9,11 +9,11 @@ The following options are available: </br>
 |Option	 | Description|
 | ----| ----------------- |
 | <b>data</b> | Contains the data properties we set up and their initial values. |
-| methods | Contains the methods we write. | 
+| <b>methods</b> | Contains the methods we write. | 
 | <b>computed</b> | Contains the computed properties we make, that are used as data properties, but are written like functions with a return and no arguments, and gets called whenever a dependency is changed. | 
-| watch	| contains the watchers we make, which are like functions that get called whenever a data property with the same name is changed. | 
+| <b>watch</b>	| contains the watchers we make, which are like functions that get called whenever a data property with the same name is changed. | 
 | <b>props</b>	| contains the props of a component, that are used as custom attributes by the parent component | 
-| emits | contains the emits of a component, the custom events a component emits to its parent component |  
+| <b>emits</b> | contains the emits of a component, the custom events a component emits to its parent component |  
 | <b>expose</b> | contains a list of public properties. Properties that are not exposed, are kept private to the component | 
 
 
