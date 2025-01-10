@@ -8,7 +8,7 @@ The following options are available: </br>
 
 |Option	 | Description|
 | ----| ----------------- |
-|data	 | Contains the data properties we set up and their initial values. |
+| <b>data</b> | Contains the data properties we set up and their initial values. |
 | methods | Contains the methods we write. | 
 | computed | Contains the computed properties we make, that are used as data properties, but are written like functions with a return and no arguments, and gets called whenever a dependency is changed. | 
 | watch	| contains the watchers we make, which are like functions that get called whenever a data property with the same name is changed. | 
