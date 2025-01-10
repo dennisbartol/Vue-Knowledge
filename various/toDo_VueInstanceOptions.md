@@ -17,7 +17,7 @@ Options in Vue are the different options available to us on the Vue instance whe
 
 
 
-
+<!--
 | ----| ----------------- |
 
 #################################
@@ -40,3 +40,4 @@ props	contains the props of a component, that are used as custom attributes by t
 emits	contains the emits of a component, the custom events a component emits to its parent component
 
 expose	contains a list of public properties. Properties that are not exposed, are kept private to the component
+-->
