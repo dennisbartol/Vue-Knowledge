@@ -3,6 +3,7 @@
 <!-- => ! Added a table, for the first time!  -->
 
 Options in Vue are the different options available to us on the Vue instance when using the Options API.
+The following options are available: </br>
 
 
 |Option	 | Description|
