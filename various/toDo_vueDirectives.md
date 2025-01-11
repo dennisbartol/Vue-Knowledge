@@ -61,9 +61,10 @@ Example:
 Conditionally renders elements based on an expression.
 Example:
 
+``` js
 <p v-if="isLoggedIn">Welcome back!</p>
 <p v-else>Login to continue.</p>
-
+```
 
 3. v-for:
 Renders a list of items by iterating over an array or object.
