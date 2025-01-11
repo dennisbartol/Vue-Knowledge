@@ -46,7 +46,7 @@ app.mixin(audioMixin); // Registers the mixin globally
 app.mount("#app");
 ```
 
-**Use the Mixin in Any Component**
+**Use the Mixin in Any Component**<br>
 After registering the global mixin, the playSound and stopSound methods are available in every Vue component without explicitly importing them:
 
 ```vue
@@ -70,7 +70,7 @@ export default {
 ```
 
 \
-#### Pros and Cons of Global Mixins
+#### Pros and Cons of Global Mixins<br>
 
 **Pros:**
 1. Convenience: Automatically makes reusable logic available in all components.
