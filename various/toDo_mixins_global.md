@@ -70,6 +70,7 @@ export default {
 ```
 
 \
+
 #### Pros and Cons of Global Mixins<br>
 
 **Pros:**
