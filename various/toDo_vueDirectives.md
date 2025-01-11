@@ -25,10 +25,6 @@ Directives are a core feature in Vue 3 that <ins>provide a declarative way to in
 
 
 
-.
-
-
----
 
 ###Purpose of Directives in Vue 3
 
@@ -50,7 +46,7 @@ Directives are tightly integrated with Vue's reactivity system, automatically up
 
 
 
----
+
 
 Common Directives in Vue 3
 
@@ -121,7 +117,7 @@ Warning: Be cautious with v-html as it can introduce XSS vulnerabilities if used
 
 
 
----
+
 
 Custom Directives in Vue 3
 
