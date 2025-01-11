@@ -5,7 +5,7 @@
 <p align="center">
 &nbsp;</br>
 
-Written with the aim of personal Vue resources. 
+Written with the aim, of personal Vue resources. 
 </p>
 
 </center>
