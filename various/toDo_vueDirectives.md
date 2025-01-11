@@ -125,6 +125,7 @@ Vue also allows you to define your own directives for custom behavior. These are
 
 Example: Custom Directive to Autofocus an Input
 
+```js
 <template>
   <input v-autofocus />
 </template>
@@ -140,7 +141,7 @@ export default {
   },
 };
 </script>
-
+```
 
 ---
 
