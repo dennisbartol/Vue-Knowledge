@@ -21,3 +21,162 @@ Directives are a core feature in Vue 3 that <ins>provide a declarative way to in
 | v-show	 | Toggles an element's visibility conditionally |
 | v-slot |	Directs content to a named slot |
 | v-text |	Updates an element's text content |
+
+
+
+
+.
+
+
+---
+
+###Purpose of Directives in Vue 3
+
+**1. Dynamic DOM Manipulation:**
+Directives help modify the DOM (e.g., show/hide elements, apply styles, set attributes) based on the state of your application.
+
+
+**2. Simplify Common Tasks:**
+Tasks like binding data to attributes, conditionally rendering content, or attaching event listeners become more concise and declarative with directives.
+
+
+**3. Enhance Readability:**
+Using directives makes your template logic easy to understand at a glance because they express intent clearly in the HTML.
+
+
+**4. Reactivity Integration:**
+Directives are tightly integrated with Vue's reactivity system, automatically updating the DOM when data changes.
+
+
+
+
+---
+
+Common Directives in Vue 3
+
+1. v-bind:
+Dynamically binds attributes or properties to an element.
+Example:
+
+<img :src="imageUrl" :alt="imageDescription" />
+
+
+2. v-if, v-else-if, v-else:
+Conditionally renders elements based on an expression.
+Example:
+
+<p v-if="isLoggedIn">Welcome back!</p>
+<p v-else>Login to continue.</p>
+
+
+3. v-for:
+Renders a list of items by iterating over an array or object.
+Example:
+
+<ul>
+  <li v-for="item in items" :key="item.id">{{ item.name }}</li>
+</ul>
+
+
+4. v-on:
+Attaches event listeners to elements.
+Example:
+
+<button @click="handleClick">Click Me</button>
+
+
+5. v-model:
+Two-way binds a form input or component to a variable.
+Example:
+
+<input v-model="username" placeholder="Enter your name" />
+
+
+6. v-show:
+Toggles the visibility of an element using CSS display.
+Example:
+
+<div v-show="isVisible">This is visible</div>
+
+
+7. v-slot:
+Defines a slot for passing content into a child component.
+Example:
+
+<MyComponent>
+  <template v-slot:default>
+    <p>Default Slot Content</p>
+  </template>
+</MyComponent>
+
+
+8. v-html:
+Dynamically renders raw HTML inside an element.
+Example:
+
+<div v-html="htmlContent"></div>
+
+Warning: Be cautious with v-html as it can introduce XSS vulnerabilities if used with untrusted content.
+
+
+
+
+---
+
+Custom Directives in Vue 3
+
+Vue also allows you to define your own directives for custom behavior. These are useful when the built-in directives don't meet your requirements.
+
+Example: Custom Directive to Autofocus an Input
+
+<template>
+  <input v-autofocus />
+</template>
+
+<script>
+export default {
+  directives: {
+    autofocus: {
+      mounted(el) {
+        el.focus();
+      },
+    },
+  },
+};
+</script>
+
+
+---
+
+Built-In vs Custom Directives
+
+Built-In Directives: Provided by Vue and cover most common use cases (e.g., v-if, v-for, v-bind).
+
+Custom Directives: Allow you to implement unique behaviors that are specific to your application.
+
+
+
+---
+
+Advantages of Using Directives
+
+1. Declarative Syntax: Makes templates expressive and easier to read.
+
+
+2. Seamless Integration with Reactivity: Automatically updates the DOM when data changes.
+
+
+3. Encapsulation: Custom directives encapsulate behavior, keeping templates clean.
+
+
+4. Reusability: Custom directives can be reused across components.
+
+
+
+
+---
+
+**Summary**
+
+Directives are a core feature in Vue 3 that provide a declarative way to interact with the DOM. They simplify tasks like binding data, managing events, and conditionally rendering content while keeping templates clean and readable. Whether you're using built-in directives or creating custom ones, they are essential for building dynamic, interactive applications with Vue.
+
