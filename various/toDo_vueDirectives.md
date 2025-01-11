@@ -26,7 +26,7 @@ Directives are a core feature in Vue 3 that <ins>provide a declarative way to in
 
 
 
-###Purpose of Directives in Vue 3
+### Purpose of Directives in Vue 3
 
 **1. Dynamic DOM Manipulation:**
 Directives help modify the DOM (e.g., show/hide elements, apply styles, set attributes) based on the state of your application.
