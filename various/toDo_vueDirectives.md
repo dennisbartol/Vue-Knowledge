@@ -70,10 +70,11 @@ Example:
 Renders a list of items by iterating over an array or object.
 Example:
 
+```js
 <ul>
   <li v-for="item in items" :key="item.id">{{ item.name }}</li>
 </ul>
-
+```
 
 4. v-on:
 Attaches event listeners to elements.
