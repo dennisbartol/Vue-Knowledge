@@ -5,7 +5,7 @@
 Options in Vue are the different options available to us on the Vue instance when using the Options API.</br>
 
 \
-The following options are available: </br>
+The following instance options are available: </br>
 
 
 |Option	 | Description|
