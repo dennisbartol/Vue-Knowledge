@@ -5,7 +5,7 @@
 
 ### 1. **Connection to Vue.js**
    - **Vue.js:** Vue is a progressive JavaScript framework mainly used for building user interfaces and single-page applications (SPAs).
-   - **Nuxt.js:** Built on top of Vue, Nuxt extends Vue's capabilities to make it easier to create Universal Applications (apps that can run on both the client and server). Nuxt essentially provides a structure and conventions to simplify the development of Vue apps, especially for SSR and static site generation (SSG).
+   - **Nuxt.js:** Built on top of Vue, Nuxt extends Vue's capabilities to make it easier to create <ins>Universal Applications</ins> (apps that can run on both the client and server). Nuxt essentially provides a structure and conventions to simplify the development of Vue apps, especially for SSR and static site generation (SSG).
 
 ### 2. **Nuxt and Vue 3**
    - **Vue 3 compatibility:** Nuxt 3 is designed specifically to support Vue 3’s features like the Composition API, better reactivity, and improved performance.
