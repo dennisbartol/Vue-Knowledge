@@ -1,4 +1,4 @@
-#### Nuxt.js
+### Nuxt.js
 
 
 **Nuxt.js** is a powerful framework for building server-rendered applications (or static sites) with **Vue.js**. It enhances the Vue.js ecosystem by providing a streamlined development experience and tools for server-side rendering (SSR), routing, state management, and more. Here’s how Nuxt.js relates to Vue3 and why it’s useful:
