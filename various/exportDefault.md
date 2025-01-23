@@ -8,7 +8,8 @@ Here's what it does:
 <b>1. Exporting:</b> <ins>It exports a single value or object as the default export from a module. This means that when another module imports from this module, it will receive whatever is exported as the default</ins>.
 
 <b>2. Default Import:</b> When importing from a module that has a default export, you can import it without curly braces {}. For example:
-<code>
+
+```js
 // Exporting module
 export default {
   data() {
@@ -17,7 +18,7 @@ export default {
     }
   }
 }
-</code>
+```
 Javascript:</br>
 <code>
 // Importing module
