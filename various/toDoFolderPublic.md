@@ -55,5 +55,5 @@ You reference these files in your code using absolute paths:
 
 
 
-In summary, the public folder is ideal for assets that do not need to be processed by the build system and should be directly available in the final output of the application.
+**In summary:** the public folder is ideal for assets that do not need to be processed by the build system and should be directly available in the final output of your application.
 
