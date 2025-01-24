@@ -5,6 +5,8 @@ In a Vue 3 project, the public folder is used to store static assets that you wa
 
 What you need to know about the public folder:
 
+&nbsp;
+
 **Characteristics of the public Folder**
 
 **1. Direct Serving:** Files in the public folder are served at the root of the project. For example, if you have a file logo.png in public, it will be accessible at /logo.png in the browser.
@@ -55,7 +57,7 @@ You reference these files in your code using absolute paths:
 
 > Note: The leading / is necessary to ensure the path is resolved relative to the root of your project, both during development and after deployment.
 
-
+&nbsp;
 
 **In summary:** the public folder is ideal for assets that do not need to be processed by the build system and should be directly available in the final output of your application.
 
