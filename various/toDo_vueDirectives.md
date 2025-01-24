@@ -24,7 +24,6 @@ Directives are a core feature in Vue 3 that <ins>provide a declarative way to in
 
 
 &nbsp;
-
 &nbsp;
 
 ### Purpose of Directives in Vue 3
@@ -118,9 +117,7 @@ Example:
 Warning: Be cautious with v-html as it can introduce XSS vulnerabilities if used with untrusted content.
 
 
-
-
-
+&nbsp;
 
 Custom Directives in Vue 3
 
