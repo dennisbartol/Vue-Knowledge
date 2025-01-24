@@ -43,7 +43,7 @@ Example Structure
   ├── data.json
 ```
 
-\
+&nbsp;
 
 **Accessing Files in the public Folder**
 
