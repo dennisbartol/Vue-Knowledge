@@ -3,7 +3,7 @@
 
 In a Vue 3 project, the public folder is used to store static assets that you want to be served directly without processing by Webpack or Vite. This folder is meant for files that don’t need to be bundled or transformed during the build process.
 
-Here’s what you need to know about the public folder:
+What you need to know about the public folder:
 
 Characteristics of the public Folder
 
@@ -18,15 +18,15 @@ References to these files must use absolute paths or paths relative to the publi
 
 
 
-3. Use Cases: Typical use cases for the public folder include:
+3. Use Cases. Typical use cases for the public folder include:
 
-Favicon or App Icons: Files like favicon.ico, apple-touch-icon.png, etc.
+- Favicon or App Icons: Files like favicon.ico, apple-touch-icon.png, etc.
 
-Robots.txt: For search engine directives.
+- Robots.txt: For search engine directives.
 
-Static JSON Files: For configurations or data that doesn’t change during runtime.
+- Static JSON Files: For configurations or data that doesn’t change during runtime.
 
-External Resources: Files like fonts or images that don’t need to be part of the module bundling process.
+- External Resources: Files like fonts or images that don’t need to be part of the module bundling process.
 
 
 
