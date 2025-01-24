@@ -30,10 +30,10 @@ References to these files must use absolute paths or paths relative to the publi
 
 
 
-4. Accessibility: During development, these files are accessible under the root / path of the dev server. In production, they are served at the root of the built application.
+**4. Accessibility:** During development, these files are accessible under the root / path of the dev server. In production, they are served at the root of the built application.
 
 
-
+```
 Example Structure
 
 /public
@@ -41,8 +41,11 @@ Example Structure
   ├── robots.txt
   ├── logo.png
   ├── data.json
+```
 
-Accessing Files in the public Folder
+\
+
+**Accessing Files in the public Folder**
 
 You reference these files in your code using absolute paths:
 
