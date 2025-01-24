@@ -7,10 +7,10 @@ What you need to know about the public folder:
 
 Characteristics of the public Folder
 
-1. Direct Serving: Files in the public folder are served at the root of the project. For example, if you have a file logo.png in public, it will be accessible at /logo.png in the browser.
+**1. Direct Serving:** Files in the public folder are served at the root of the project. For example, if you have a file logo.png in public, it will be accessible at /logo.png in the browser.
 
 
-2. No Processing: Assets in this folder are not processed by Vue’s build tools (e.g., Webpack or Vite). This means:
+**2. No Processing:** Assets in this folder are not processed by Vue’s build tools (e.g., Webpack or Vite). This means:
 
 No minification, hashing, or other optimizations are applied.
 
@@ -18,7 +18,7 @@ References to these files must use absolute paths or paths relative to the publi
 
 
 
-3. Use Cases. Typical use cases for the public folder include:
+**3. Use Cases.** Typical use cases for the public folder include:
 
 - Favicon or App Icons: Files like favicon.ico, apple-touch-icon.png, etc.
 
