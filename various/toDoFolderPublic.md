@@ -49,7 +49,9 @@ Example Structure
 
 You reference these files in your code using absolute paths:
 
+```
 <img src="/logo.png" alt="Logo">
+```
 
 > Note: The leading / is necessary to ensure the path is resolved relative to the root of your project, both during development and after deployment.
 
