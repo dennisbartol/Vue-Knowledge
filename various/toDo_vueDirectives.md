@@ -23,8 +23,9 @@ Directives are a core feature in Vue 3 that <ins>provide a declarative way to in
 | v-text |	Updates an element's text content |
 
 
+&nbsp;
 
-
+&nbsp;
 
 ### Purpose of Directives in Vue 3
 
