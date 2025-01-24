@@ -12,9 +12,9 @@ What you need to know about the public folder:
 
 **2. No Processing:** Assets in this folder are not processed by Vue’s build tools (e.g., Webpack or Vite). This means:
 
-No minification, hashing, or other optimizations are applied.
+- No minification, hashing, or other optimizations are applied.
 
-References to these files must use absolute paths or paths relative to the public folder’s root.
+- References to these files must use absolute paths or paths relative to the public folder’s root.
 
 
 
