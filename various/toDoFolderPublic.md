@@ -1,11 +1,11 @@
-
+#### The public folder. 
 
 
 In a Vue 3 project, the public folder is used to store static assets that you want to be served directly without processing by Webpack or Vite. This folder is meant for files that don’t need to be bundled or transformed during the build process.
 
 What you need to know about the public folder:
 
-Characteristics of the public Folder
+**Characteristics of the public Folder**
 
 **1. Direct Serving:** Files in the public folder are served at the root of the project. For example, if you have a file logo.png in public, it will be accessible at /logo.png in the browser.
 
