@@ -134,7 +134,7 @@ Warning: Be cautious with v-html as it can introduce XSS vulnerabilities if used
 
 Vue also allows you to define your own directives for custom behavior. These are useful when the built-in directives don't meet your requirements.
 
-Example: Custom Directive to Autofocus an Input
+Example: Custom directive to autofocus on input. 
 
 ```js
 <template>
