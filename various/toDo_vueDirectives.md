@@ -54,7 +54,9 @@ Common Directives in Vue 3
 Dynamically binds attributes or properties to an element.
 Example:
 
+``` js
 <img :src="imageUrl" :alt="imageDescription" />
+```
 
 
 2. v-if, v-else-if, v-else:
