@@ -87,32 +87,39 @@ Example:
 Two-way binds a form input or component to a variable.
 Example:
 
+```js
 <input v-model="username" placeholder="Enter your name" />
-
+```
 
 6. v-show:
 Toggles the visibility of an element using CSS display.
 Example:
 
+``` js
 <div v-show="isVisible">This is visible</div>
+```
 
 
 7. v-slot:
 Defines a slot for passing content into a child component.
 Example:
 
+```js
 <MyComponent>
   <template v-slot:default>
     <p>Default Slot Content</p>
   </template>
 </MyComponent>
+```
 
 
 8. v-html:
 Dynamically renders raw HTML inside an element.
 Example:
 
+``` js
 <div v-html="htmlContent"></div>
+```
 
 Warning: Be cautious with v-html as it can introduce XSS vulnerabilities if used with untrusted content.
 
