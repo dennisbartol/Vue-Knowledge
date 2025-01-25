@@ -83,8 +83,9 @@ Example:
 Attaches event listeners to elements.
 Example:
 
+``` js
 <button @click="handleClick">Click Me</button>
-
+```
 
 5. v-model:
 Two-way binds a form input or component to a variable.
@@ -129,7 +130,7 @@ Warning: Be cautious with v-html as it can introduce XSS vulnerabilities if used
 
 &nbsp;
 
-Custom Directives in Vue 3
+**Custom Directives in Vue 3**
 
 Vue also allows you to define your own directives for custom behavior. These are useful when the built-in directives don't meet your requirements.
 
