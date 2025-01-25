@@ -46,6 +46,7 @@ app.mixin(audioMixin); // Registers the mixin globally
 app.mount("#app");
 ```
 
+&nbsp;<br>
 **Use the Mixin in Any Component**<br>
 After registering the global mixin, the playSound and stopSound methods are available in every Vue component without explicitly importing them:
 
