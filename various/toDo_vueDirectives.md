@@ -153,9 +153,10 @@ export default {
 </script>
 ```
 
----
 
-Built-In vs Custom Directives
+&nbsp;<br>
+
+**Built-In vs Custom Directives**
 
 Built-In Directives: Provided by Vue and cover most common use cases (e.g., v-if, v-for, v-bind).
 
@@ -163,9 +164,9 @@ Custom Directives: Allow you to implement unique behaviors that are specific to 
 
 
 
----
+&nbsp;<br>
 
-Advantages of Using Directives
+**Advantages of Using Directives**
 
 1. Declarative Syntax: Makes templates expressive and easier to read.
 
@@ -180,8 +181,8 @@ Advantages of Using Directives
 
 
 
-
----
+&nbsp;<br>
+&nbsp;<br>
 
 **Summary**
 
