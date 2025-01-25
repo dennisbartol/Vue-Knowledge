@@ -46,9 +46,10 @@ Directives are tightly integrated with Vue's reactivity system, automatically up
 
 
 
+&nbsp;<br>
+&nbsp;<br>
 
-
-Common Directives in Vue 3
+#### Common Directives with basic code examples 
 
 1. v-bind:
 Dynamically binds attributes or properties to an element.
