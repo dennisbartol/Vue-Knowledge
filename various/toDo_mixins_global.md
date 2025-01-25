@@ -70,7 +70,7 @@ export default {
 </script>
 ```
 
-
+&nbsp;<br>
 
 #### Pros and Cons of Global Mixins<br>
 
