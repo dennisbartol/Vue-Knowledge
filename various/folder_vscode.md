@@ -3,7 +3,7 @@
 
 The .vscode folder in a Vue 3 project is used to store project-specific configurations for Visual Studio Code. This folder is not created automatically when you create a Vue project but is often added manually or generated when specific extensions or configurations are used. It typically includes JSON files that define settings, tasks, and recommendations for working with the project.
 
-nbsp;<br>
+&nbsp;<br>
 Common Files in .vscode
 
 1. settings.json: Contains project-specific editor settings. Examples include:
