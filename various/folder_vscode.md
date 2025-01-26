@@ -85,20 +85,22 @@ Integration with Vue Tools
 
 When working with a Vue 3 project, the .vscode folder often integrates with tools like:
 
-Volar (the recommended extension for Vue 3).
+- Volar (the recommended extension for Vue 3).
 
-ESLint for linting JavaScript/TypeScript and Vue files.
+- ESLint for linting JavaScript/TypeScript and Vue files.
 
-Prettier for consistent code formatting.
+- Prettier, for consistent code formatting.
 
-
+&nbsp;<br>
 Example .vscode Folder Structure:
 
+``` js
 .vscode/
 ├── settings.json
 ├── extensions.json
 ├── launch.json
 └── tasks.json
+```
 
 Feel free to customize it based on the tools and workflows your team uses.
 
