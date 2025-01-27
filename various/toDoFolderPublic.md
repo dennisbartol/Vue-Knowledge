@@ -47,7 +47,7 @@ Example Structure
 
 &nbsp;
 
-**Accessing Files in the public Folder**
+**Accessing files in the public folder**
 
 You reference these files in your code using absolute paths:
 
