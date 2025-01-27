@@ -28,4 +28,5 @@ Creating a social media app like Facebook in Vue involves several complex compon
 
 <b>13. Continuous Improvement:</b> Continuously gather feedback from users and iterate on your app to improve its features and usability.
 
+&nbsp;<br>
 Keep in mind that building a social media app like Facebook is a significant undertaking and requires a good understanding of web development principles, as well as time and effort to implement all the necessary features. It's also essential to consider privacy and security concerns when handling user data.
