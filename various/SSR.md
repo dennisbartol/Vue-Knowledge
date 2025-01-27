@@ -105,11 +105,11 @@ Instead of setting up SSR manually, you can use frameworks that streamline the p
 \
 **SSR vs. Other Rendering Strategies**
 
-1. Client-Side Rendering (CSR): The entire app is rendered in the browser after JavaScript is downloaded.
+**1. Client-Side Rendering (CSR):** The entire app is rendered in the browser after JavaScript is downloaded.
 
-2. Static Site Generation (SSG): HTML is generated at build time and served as static files, offering fast performance without requiring a server.
+**2. Static Site Generation (SSG):** HTML is generated at build time and served as static files, offering fast performance without requiring a server.
 
-3. ISR (Incremental Static Regeneration): Combines SSG and SSR, allowing certain pages to be rendered dynamically while others remain static.
+**3. ISR (Incremental Static Regeneration):** Combines SSG and SSR, allowing certain pages to be rendered dynamically while others remain static.
 
 \
 Vue 3's SSR capabilities make it ideal for building high-performance, SEO-friendly web applications that deliver a great user experience.
