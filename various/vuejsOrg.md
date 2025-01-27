@@ -1,6 +1,6 @@
 ### Vuejs.org
 
-Vuejs.org is the official website for Vue.js, the popular open-source JavaScript framework used to build user interfaces and single-page applications (SPAs). 
+Vuejs.org is the official website for Vue.js, the popular open-source JavaScript framework used to build user interfaces and single-page applications (SPA's). 
 
 
 It provides comprehensive documentation, guides, tutorials, and resources for developers to learn, use, and implement Vue.js effectively. 
