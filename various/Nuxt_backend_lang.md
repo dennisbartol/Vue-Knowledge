@@ -2,6 +2,7 @@
 
 <ins>Nuxt.js does not use PHP or SQL on the backend</ins>. Nuxt is a framework for building modern web applications using JavaScript, specifically with Vue.js, and it focuses on the frontend and server-side rendering (SSR).
 
+&nbsp;<br>
 Key Features of Nuxt.js:
 
 **1. JavaScript-Based:** Nuxt uses Node.js as its backend environment. This means that it typically uses JavaScript and frameworks like Express.js for server-side processing.
