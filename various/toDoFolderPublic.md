@@ -7,7 +7,7 @@ What you need to know about the public folder:
 
 &nbsp;
 
-**Characteristics of the public Folder**
+**Characteristics of the public folder**
 
 **1. Direct Serving:** Files in the public folder are served at the root of the project. For example, if you have a file logo.png in public, it will be accessible at /logo.png in the browser.
 
