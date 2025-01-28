@@ -7,7 +7,25 @@ The <template> tag will later be used in *.vue files to structure our code in a 
 It is possible to use template as a configuration option in the Vue instance, and put the HTML code inside.
 
 
+```js
+<div id="app"></div>
 
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script>
+  const app = Vue.createApp({
+    template:
+      `<h1>{{ message }}</h1>
+      <p>This is a second line of HTML code, inside back tick quotes</p>`,
+    data() {
+      return {
+        message: "Hello World!"
+      }
+    }
+  })
+app.mount('#app')
+</script>
+
+```
 
 
 #### Single File Components (SFCs)
