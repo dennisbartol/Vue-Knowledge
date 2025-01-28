@@ -10,7 +10,7 @@ It is possible to use template as a configuration option in the Vue instance, an
 
 
 
-####Single File Components (SFCs)
+#### Single File Components (SFCs)
 
 
 As you can see in the code example above, also the HTML part of our Vue application can be gathered inside the Vue instance, but this does not make it easier to get an overview in the HTML file.
