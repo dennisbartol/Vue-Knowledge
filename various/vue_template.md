@@ -27,4 +27,3 @@ All *.vue files only consist of three parts:
 
 
 
-But before we can use *.vue files in our project we need to set up our computer in a different way. The next pages in this tutorial will explain this.
