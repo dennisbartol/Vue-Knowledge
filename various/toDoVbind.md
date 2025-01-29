@@ -39,21 +39,29 @@ We can also separate the font size number value from the font size unit if we wa
 Example
 The font size number value is stored the Vue data property 'size'.
 
+```js
 <div v-bind:style="{ fontSize: size + 'px' }">
   Text example
 </div>
+```
+
 We could also write the CSS property name with CSS syntax (kebab-case) in hyphens, but it is not recommended:
 
 Example
 The CSS property fontSize is referred to as 'font-size'.
 
+```js
 <div v-bind:style="{ 'font-size': size + 'px' }">
   Text example
 </div>
+```
+
 Example
 The background color depends on the 'bgVal' data property value inside the Vue instance.
 
+
+```js
 <div v-bind:style="{ backgroundColor: 'hsl('+bgVal+',80%,80%)' }">
   Notice the background color on this div tag.
 </div>
-
+```
