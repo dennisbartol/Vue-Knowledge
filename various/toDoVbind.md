@@ -1,7 +1,7 @@
 ### V-Bind
 
 
-A basic Vue setup consists of a Vue instance and that we can access it from the <div id="app"> tag with {{ }} or the v-bind directive.
+A basic Vue setup consists of a Vue instance and that we can access it from the ```<div id="app">``` tag with {{ }} or the v-bind directive.
 
 What is the v-bind directive in more detail? 
 
