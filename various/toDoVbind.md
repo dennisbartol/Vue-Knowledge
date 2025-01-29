@@ -67,3 +67,24 @@ The background color depends on the 'bgVal' data property value inside the Vue i
   Notice the background color on this div tag.
 </div>
 ```
+
+
+/
+/
+/
+/
+/
+/
+
+
+**Shorthand for v-bind**
+The shorthand for 'v-bind:' is simply ':'.
+
+Example<br>
+Here, we just write ':' instead of 'v-bind:':
+
+```
+<div :class="{ impClass: isImportant }">
+  The class is set conditionally to change the background color
+</div>
+```
