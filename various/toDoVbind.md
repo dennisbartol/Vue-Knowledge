@@ -78,7 +78,7 @@ The background color depends on the 'bgVal' data property value inside the Vue i
 
 
 **Shorthand for v-bind**
-The shorthand for 'v-bind:' is simply ':'.
+The shorthand for 'v-bind:' is simply ```':'``` (colon).
 
 Example<br>
 Here, we just write ':' instead of 'v-bind:':
