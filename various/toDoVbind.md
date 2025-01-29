@@ -47,7 +47,7 @@ The font size number value is stored the Vue data property 'size'.
 
 We could also write the CSS property name with CSS syntax (kebab-case) in hyphens, but it is not recommended:
 
-Example
+Example<br>
 The CSS property fontSize is referred to as 'font-size'.
 
 ```js
@@ -56,7 +56,7 @@ The CSS property fontSize is referred to as 'font-size'.
 </div>
 ```
 
-Example
+Example<br>
 The background color depends on the 'bgVal' data property value inside the Vue instance.
 
 
