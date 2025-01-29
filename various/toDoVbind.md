@@ -20,12 +20,12 @@ The src attribute value of an <img> tag is taken from the Vue instance data prop
 **CSS Binding**
 We can use the v-bind directive to do in-line styling and modify classes dynamically. We will show you briefly how to do that in this section, and later in this tutorial, on the CSS Binding page, we will explain this in more detail.
 
-Bind style
+Bind style<br>
 In-line styling with Vue is done by binding the style attribute to Vue with v-bind.
 
 As a value to the v-bind directive, we can write a JavaScript object with the CSS property and value:
 
-Example
+Example<br>
 The font size depends on the Vue data property 'size'.
 
 ```js
@@ -36,7 +36,7 @@ The font size depends on the Vue data property 'size'.
 
 We can also separate the font size number value from the font size unit if we want to, like this:
 
-Example
+Example<br>
 The font size number value is stored the Vue data property 'size'.
 
 ```js
