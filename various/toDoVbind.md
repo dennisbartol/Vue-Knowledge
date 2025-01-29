@@ -8,9 +8,11 @@ What is the v-bind directive in more detail?
 The v-bind Directive
 The v-bind directive lets us bind an HTML attribute to data in the Vue instance. This makes it easy to change the attribute value dynamically.
 
-SyntaxGet your own Vue Server
+```js
 <div v-bind:[attribute]="[Vue data]"></div>
+```
 Example
+
 The src attribute value of an <img> tag is taken from the Vue instance data property 'url':
 
 <img v-bind:src="url">
@@ -25,9 +27,12 @@ As a value to the v-bind directive, we can write a JavaScript object with the CS
 Example
 The font size depends on the Vue data property 'size'.
 
+```js
 <div v-bind:style="{ fontSize: size }">
   Text example
 </div>
+```
+
 We can also separate the font size number value from the font size unit if we want to, like this:
 
 Example
