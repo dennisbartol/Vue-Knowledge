@@ -1,4 +1,4 @@
-### V-Bind
+### V-Bind explained
 
 
 A basic Vue setup consists of a Vue instance and that we can access it from the ```<div id="app">``` tag with {{ }} or the v-bind directive.
@@ -34,6 +34,7 @@ The font size depends on the Vue data property 'size'.
 </div>
 ```
 
+&nbsp;<br>
 We can also separate the font size number value from the font size unit if we want to, like this:
 
 Example<br>
@@ -45,6 +46,7 @@ The font size number value is stored the Vue data property 'size'.
 </div>
 ```
 
+&nbsp;<br>
 We could also write the CSS property name with CSS syntax (kebab-case) in hyphens, but it is not recommended:
 
 Example<br>
