@@ -5,7 +5,7 @@
 - Use a watcher if a certain data property value requires an action.
 
 **The Watcher Concept**</br>
-Watchers are the fourth configuration option in the Vue instance. The other three configuration options (we have already looked at) are 'data', 'methods' and 'computed'.
+Watchers are the fourth configuration option in the Vue instance. The other three configuration options (we have already looked at) are 'data', 'computed' and 'methods'.
 
 As with 'data', 'methods' and 'computed' watchers also has a reserved name in the Vue instance: **'watch'.**
 
