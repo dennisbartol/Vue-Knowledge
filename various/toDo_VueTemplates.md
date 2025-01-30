@@ -22,3 +22,33 @@ Unlike regular HTML, elements inside <template> are reactive and belong only to 
 4. Multiple Root Elements (Vue 3 Feature):
 Vue 3 allows multiple root elements inside <template>, unlike Vue 2 which required a single root element.
 
+
+&nbsp;</br>
+**Example of a <template> in a Vue 3 Component:**
+
+``` js
+<template>
+  <div>
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      title: "Hello Vue 3",
+      description: "Vue 3 allows multiple root elements!"
+    };
+  }
+};
+</script>
+
+<style scoped>
+h1 {
+  color: blue;
+}
+</style>
+```
+
