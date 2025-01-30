@@ -39,7 +39,7 @@ Example of a <template> in a Vue 3 Component:
 export default {
   data() {
     return {
-      title: "Hello Vue 3",
+      title: "Hey, my component is in Vue 3",
       description: "Vue 3 allows multiple root elements!"
     };
   }
