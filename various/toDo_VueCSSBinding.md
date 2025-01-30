@@ -39,7 +39,8 @@ Here are different aspects regarding the use of v-bind:class and v-bind:style th
 - With in-line styling (v-bind:style) camelCase is preferred when defining a CSS property, but 'kebab-case' can also be used if it is written inside quotes.
 - CSS classes can be assigned with arrays / with array notation / syntax
 
-The four points are explained in more detail below.
+*nbsp;</br>
+These four points are explained in more detail below.
 
 **1. Vue Merges 'class' And 'v-bind:class'**<br>
 In cases when an HTML tag belongs to a class assigned with class="", and is also assigned to a class with v-bind:class="", Vue merges the classes for us.
