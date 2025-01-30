@@ -69,10 +69,6 @@ Here, we set CSS properties background-color and font-weight for a <div> element
 ```
 
 &nbsp;<br>
-'Camel case' and 'kebab case' notation are ways of writing a series of words without space or punctuation.
-
-Camel case notation is when the first word starts with a small letter, and every word after starts with a capital letter, like 'backgroundColor' or 'camelCaseNotation'. It is called camel case because we can imagine every capital letter resembling a hump on a camels back.
-Kebab case notation is when the words are separated with a dash -, like 'background-color' or 'kebab-case-notation'. It is called kebab case because we can imagine the dashes resembling the skewer in a 'shish kebab'.
 4. Array Syntax with 'v-bind:class'
 We can use array syntax with v-bind:class to add multiple classes. With array syntax we can use both classes that depend on a Vue property and classes that do not depend on a Vue property.
 
