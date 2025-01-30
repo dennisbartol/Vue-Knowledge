@@ -10,32 +10,39 @@ We use v-bind:style to do in-line styling in Vue.
 
 
 
-ExampleGet your own Vue Server
-An <input type="range"> element is used to change the opacity of a <div> element with the use of in-line styling.
+Example</br>
+An `<input type="range">` element is used to change the opacity of a <div> element with the use of in-line styling.
 
+``` js
 <input type="range" v-model="opacityVal">
 <div v-bind:style="{ backgroundColor: 'rgba(155,20,20,'+opacityVal+')' }">
   Drag the range input above to change opacity here.
 </div>
-Assign a Class
+```
+
+**Assign a Class**
 We use v-bind:class to assign a class to an HTML tag in Vue.
 
-Example
+Example</br>
 Select images of food. Selected food is highlighted with the use of v-bind:class to show what you have selected.
 
+```
 <div v-for="(img, index) in images">
   <img v-bind:src="img.url"
        v-on:click="select(index)"
        v-bind:class="{ selClass: img.sel }">
 </div>
-Other Ways to Assign Classes and Style
+```
+
+**Other Ways to Assign Classes and Style**
 Here are different aspects regarding the use of v-bind:class and v-bind:style that we have not seen before in this tutorial:
 
-When CSS classes are assigned to an HTML tag with both class="" and v-bind:class="" Vue merges the classes.
-An object containing one or more classes is assigned with v-bind:class="{}". Inside the object one or more classes might be toggled on or off.
-With in-line styling (v-bind:style) camelCase is preferred when defining a CSS property, but 'kebab-case' can also be used if it is written inside quotes.
-CSS classes can be assigned with arrays / with array notation / syntax
-These points are explained in more detail below.
+- When CSS classes are assigned to an HTML tag with both `class=""` and `v-bind:class=""` Vue merges the classes.
+- An object containing one or more classes is assigned with v-bind:class="{}". Inside the object one or more classes might be toggled on or off.
+- With in-line styling (v-bind:style) camelCase is preferred when defining a CSS property, but 'kebab-case' can also be used if it is written inside quotes.
+- CSS classes can be assigned with arrays / with array notation / syntax
+
+The four points are explained in more detail below.
 
 **1. Vue Merges 'class' And 'v-bind:class'**
 In cases when an HTML tag belongs to a class assigned with class="", and is also assigned to a class with v-bind:class="", Vue merges the classes for us.
