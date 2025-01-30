@@ -7,7 +7,7 @@ It is possible to use template as a configuration option in the Vue instance, an
 
 In Vue 3, <template> is a special HTML-like element used to define the structure of a Vue component's UI. It acts as a container for the component’s markup and is essential in Vue’s Single File Components (SFCs) or inside inline component definitions.
 
-Key Points About <template> in Vue 3:</br>
+**Key Points About <template> in Vue 3:**</br>
 
 **1. Encapsulation of Markup:**
 The <template> section contains the HTML structure of the component.
