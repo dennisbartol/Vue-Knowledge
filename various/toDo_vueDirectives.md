@@ -15,7 +15,7 @@ Directives are a core feature in Vue 3 that <ins>provide a declarative way to in
 | v-else |	Renders an element when the first part of the if-statement is false |
 | v-memo |	Holds back rendering of an element until a change is detected in one or more specified properties |
 | v-model	| Creates a two-way binding between an input element and the corresponding data property |
-| v-on |	Connects an event to an action |
+| v-on |	Connects an event to an action (e.g.: click) |
 | v-once |	Renders an element only once |
 | v-pre |	Skips compilation of an element and its content |
 | v-show	 | Toggles an element's visibility conditionally |
