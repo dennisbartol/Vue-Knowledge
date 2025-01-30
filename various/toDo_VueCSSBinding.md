@@ -1,0 +1,86 @@
+### Vue CSS binding 
+
+Dynamic CSS in Vue
+You have already seen how we can use Vue to modify CSS by using v-bind on the style and class attributes. It has been explained briefly in this tutorial under v-bind and several examples with Vue changing CSS has also been given.
+
+Here we will explain in more detail how CSS can be changed dynamically with Vue. But first lets look at two examples with techniques we have already seen in this tutorial: in-line styling with v-bind:style and assigning a class with v-bind:class
+
+Inline Styling
+We use v-bind:style to do in-line styling in Vue.
+
+
+
+ExampleGet your own Vue Server
+An <input type="range"> element is used to change the opacity of a <div> element with the use of in-line styling.
+
+<input type="range" v-model="opacityVal">
+<div v-bind:style="{ backgroundColor: 'rgba(155,20,20,'+opacityVal+')' }">
+  Drag the range input above to change opacity here.
+</div>
+Assign a Class
+We use v-bind:class to assign a class to an HTML tag in Vue.
+
+Example
+Select images of food. Selected food is highlighted with the use of v-bind:class to show what you have selected.
+
+<div v-for="(img, index) in images">
+  <img v-bind:src="img.url"
+       v-on:click="select(index)"
+       v-bind:class="{ selClass: img.sel }">
+</div>
+Other Ways to Assign Classes and Style
+Here are different aspects regarding the use of v-bind:class and v-bind:style that we have not seen before in this tutorial:
+
+When CSS classes are assigned to an HTML tag with both class="" and v-bind:class="" Vue merges the classes.
+An object containing one or more classes is assigned with v-bind:class="{}". Inside the object one or more classes might be toggled on or off.
+With in-line styling (v-bind:style) camelCase is preferred when defining a CSS property, but 'kebab-case' can also be used if it is written inside quotes.
+CSS classes can be assigned with arrays / with array notation / syntax
+These points are explained in more detail below.
+
+1. Vue Merges 'class' And 'v-bind:class'
+In cases when an HTML tag belongs to a class assigned with class="", and is also assigned to a class with v-bind:class="", Vue merges the classes for us.
+
+Example
+A <div> element belongs to two classes: 'impClass' and 'yelClass'. The 'important' class is set the normal way with the class attribute, and 'yellow' class is set with v-bind:class.
+
+<div class="impClass" v-bind:class="{yelClass: isYellow}">
+  This div belongs to both 'impClass' and 'yelClass'.
+</div>
+2. Assign More Than One Class With 'v-bind:class'
+When assigning an HTML element to a class with v-bind:class="{}", we can simply use comma to separate and assign multiple classes.
+
+Example
+A <div> element can belong to both 'impClass' and 'yelClass' classes, depending on the boolean Vue data properties 'isYellow' and 'isImportant'.
+
+<div v-bind:class="{yelClass: isYellow, impClass: isImportant}">
+  This tag can belong to both the 'impClass' and 'yelClass' classes.
+</div>
+3. Camel case vs kebab case notation with 'v-bind:style'
+When modifying CSS in Vue with in-line styling (v-bind:style), it is recommended to use camel Case notation for the CSS property, but 'kebab-case' can also be used if the CSS property is inside quotes.
+
+&nbsp;<br>
+Example</br>
+Here, we set CSS properties background-color and font-weight for a <div> element in two different ways: the recommended way with camel Case backgroundColor, and the not recommended way with 'kebab-case' in quotes 'font-weight'. Both alternatives work.
+
+``` js
+<div v-bind:style="{ backgroundColor: 'lightpink', 'font-weight': 'bolder' }">
+  This div tag has pink background and bold text.
+</div>
+```
+
+&nbsp;<br>
+'Camel case' and 'kebab case' notation are ways of writing a series of words without space or punctuation.
+
+Camel case notation is when the first word starts with a small letter, and every word after starts with a capital letter, like 'backgroundColor' or 'camelCaseNotation'. It is called camel case because we can imagine every capital letter resembling a hump on a camels back.
+Kebab case notation is when the words are separated with a dash -, like 'background-color' or 'kebab-case-notation'. It is called kebab case because we can imagine the dashes resembling the skewer in a 'shish kebab'.
+4. Array Syntax with 'v-bind:class'
+We can use array syntax with v-bind:class to add multiple classes. With array syntax we can use both classes that depend on a Vue property and classes that do not depend on a Vue property.
+
+Example<br>
+Here, we set CSS classes 'impClass' and 'yelClass' with array syntax. The class 'impClass' depends on a Vue property isImportant and the class 'yelClass' is always attached to the <div> element.
+
+``` js
+<div v-bind:class="[{ impClass: isImportant }, 'yelClass' ]">
+  This div tag belongs to one or two classes depending on the isImportant property.
+</div>
+```
