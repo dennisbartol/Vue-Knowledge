@@ -1,9 +1,7 @@
 ### Vue CSS binding 
 
-Dynamic CSS in Vue
-You have already seen how we can use Vue to modify CSS by using v-bind on the style and class attributes. It has been explained briefly in this tutorial under v-bind and several examples with Vue changing CSS has also been given.
 
-Here we will explain in more detail how CSS can be changed dynamically with Vue. But first lets look at two examples with techniques we have already seen in this tutorial: in-line styling with v-bind:style and assigning a class with v-bind:class
+You can use Vue to modify CSS by using v-bind on style and class attributes. Here is explained in more detail how CSS can be changed dynamically with Vue. But first lets look at two examples with in-line styling with v-bind:style and assigning a class with v-bind:class.
 
 &nbsp;</br>
 **Inline Styling**</br>
