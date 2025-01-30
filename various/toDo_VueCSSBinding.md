@@ -5,10 +5,9 @@ You have already seen how we can use Vue to modify CSS by using v-bind on the st
 
 Here we will explain in more detail how CSS can be changed dynamically with Vue. But first lets look at two examples with techniques we have already seen in this tutorial: in-line styling with v-bind:style and assigning a class with v-bind:class
 
-Inline Styling
+&nbsp;</br>
+**Inline Styling**</br>
 We use v-bind:style to do in-line styling in Vue.
-
-
 
 Example</br>
 An `<input type="range">` element is used to change the opacity of a <div> element with the use of in-line styling.
@@ -20,7 +19,7 @@ An `<input type="range">` element is used to change the opacity of a <div> eleme
 </div>
 ```
 
-**Assign a Class**
+**Assign a Class**</br>
 We use v-bind:class to assign a class to an HTML tag in Vue.
 
 Example</br>
@@ -48,21 +47,25 @@ The four points are explained in more detail below.
 In cases when an HTML tag belongs to a class assigned with class="", and is also assigned to a class with v-bind:class="", Vue merges the classes for us.
 
 Example</br>
-A <div> element belongs to two classes: 'impClass' and 'yelClass'. The 'important' class is set the normal way with the class attribute, and 'yellow' class is set with v-bind:class.
+A `<div>` element belongs to two classes: 'impClass' and 'yelClass'. The 'important' class is set the normal way with the class attribute, and 'yellow' class is set with v-bind:class.
 
+``` js
 <div class="impClass" v-bind:class="{yelClass: isYellow}">
   This div belongs to both 'impClass' and 'yelClass'.
 </div>
+```
 
 **2. Assign More Than One Class With 'v-bind:class'**
 When assigning an HTML element to a class with v-bind:class="{}", we can simply use comma to separate and assign multiple classes.
 
 Example</br>
-A <div> element can belong to both 'impClass' and 'yelClass' classes, depending on the boolean Vue data properties 'isYellow' and 'isImportant'.
+A `<div>` element can belong to both 'impClass' and 'yelClass' classes, depending on the boolean Vue data properties 'isYellow' and 'isImportant'.
 
+``` js
 <div v-bind:class="{yelClass: isYellow, impClass: isImportant}">
   This tag can belong to both the 'impClass' and 'yelClass' classes.
 </div>
+```
 
 **3. Camel case vs kebab case notation with 'v-bind:style'**
 When modifying CSS in Vue with in-line styling (v-bind:style), it is recommended to use camel Case notation for the CSS property, but 'kebab-case' can also be used if the CSS property is inside quotes.
