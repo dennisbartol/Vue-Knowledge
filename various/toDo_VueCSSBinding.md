@@ -30,9 +30,9 @@ Select images of food. Selected food is highlighted with the use of v-bind:class
        v-bind:class="{ selClass: img.sel }">
 </div>
 ```
-
+&nbsp;</br>
 **Other Ways to Assign Classes and Style**<br>
-Here are different aspects regarding the use of v-bind:class and v-bind:style that we have not seen before in this tutorial:
+There are four different aspects regarding the use of `v-bind:class` and `v-bind:style`:
 
 - When CSS classes are assigned to an HTML tag with both `class=""` and `v-bind:class=""` Vue merges the classes.
 - An object containing one or more classes is assigned with v-bind:class="{}". Inside the object one or more classes might be toggled on or off.
