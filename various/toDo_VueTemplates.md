@@ -15,7 +15,7 @@ It is not rendered as an actual DOM element in the output.
 
 **2. Reactivity & Binding:**
 It can contain Vue directives like `v-bind, v-for, v-if`, etc.
-It can dynamically render data using `{{ }}` (interpolation).
+It can dynamically render data using `{{ }} (interpolation)`.
 
 **3. Scoped to the Component:**
 Unlike regular HTML, elements inside <template> are reactive and belong only to the component they are defined in.
