@@ -85,7 +85,7 @@ Here, we set CSS properties background-color and font-weight for a <div> element
 We can use array syntax with v-bind:class to add multiple classes. With array syntax we can use both classes that depend on a Vue property and classes that do not depend on a Vue property.
 
 Example<br>
-Here, we set CSS classes 'impClass' and 'yelClass' with array syntax. The class 'impClass' depends on a Vue property isImportant and the class 'yelClass' is always attached to the <div> element.
+Here, we set CSS classes 'impClass' and 'yelClass' with array syntax. The class 'impClass' depends on a Vue property isImportant and the class 'yelClass' is always attached to the `<div>` element.
 
 ``` js
 <div v-bind:class="[{ impClass: isImportant }, 'yelClass' ]">
