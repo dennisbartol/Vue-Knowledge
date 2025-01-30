@@ -10,7 +10,7 @@ Here we will explain in more detail how CSS can be changed dynamically with Vue.
 We use v-bind:style to do in-line styling in Vue.
 
 Example</br>
-An `<input type="range">` element is used to change the opacity of a <div> element with the use of in-line styling.
+An `<input type="range">` element is used to change the opacity of a `<div>` element with the use of in-line styling.
 
 ``` js
 <input type="range" v-model="opacityVal">
@@ -72,7 +72,7 @@ When modifying CSS in Vue with in-line styling (v-bind:style), it is recommended
 
 &nbsp;<br>
 Example</br>
-Here, we set CSS properties background-color and font-weight for a <div> element in two different ways: the recommended way with camel Case backgroundColor, and the not recommended way with 'kebab-case' in quotes 'font-weight'. Both alternatives work.
+Here, we set CSS properties background-color and font-weight for a `<div>` element in two different ways: the recommended way with camel Case backgroundColor, and the not recommended way with 'kebab-case' in quotes 'font-weight'. Both alternatives work.
 
 ``` js
 <div v-bind:style="{ backgroundColor: 'lightpink', 'font-weight': 'bolder' }">
