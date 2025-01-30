@@ -37,25 +37,27 @@ With in-line styling (v-bind:style) camelCase is preferred when defining a CSS p
 CSS classes can be assigned with arrays / with array notation / syntax
 These points are explained in more detail below.
 
-1. Vue Merges 'class' And 'v-bind:class'
+**1. Vue Merges 'class' And 'v-bind:class'**
 In cases when an HTML tag belongs to a class assigned with class="", and is also assigned to a class with v-bind:class="", Vue merges the classes for us.
 
-Example
+Example</br>
 A <div> element belongs to two classes: 'impClass' and 'yelClass'. The 'important' class is set the normal way with the class attribute, and 'yellow' class is set with v-bind:class.
 
 <div class="impClass" v-bind:class="{yelClass: isYellow}">
   This div belongs to both 'impClass' and 'yelClass'.
 </div>
-2. Assign More Than One Class With 'v-bind:class'
+
+**2. Assign More Than One Class With 'v-bind:class'**
 When assigning an HTML element to a class with v-bind:class="{}", we can simply use comma to separate and assign multiple classes.
 
-Example
+Example</br>
 A <div> element can belong to both 'impClass' and 'yelClass' classes, depending on the boolean Vue data properties 'isYellow' and 'isImportant'.
 
 <div v-bind:class="{yelClass: isYellow, impClass: isImportant}">
   This tag can belong to both the 'impClass' and 'yelClass' classes.
 </div>
-3. Camel case vs kebab case notation with 'v-bind:style'
+
+**3. Camel case vs kebab case notation with 'v-bind:style'**
 When modifying CSS in Vue with in-line styling (v-bind:style), it is recommended to use camel Case notation for the CSS property, but 'kebab-case' can also be used if the CSS property is inside quotes.
 
 &nbsp;<br>
@@ -69,7 +71,7 @@ Here, we set CSS properties background-color and font-weight for a <div> element
 ```
 
 &nbsp;<br>
-4. Array Syntax with 'v-bind:class'
+**4. Array Syntax with 'v-bind:class'**
 We can use array syntax with v-bind:class to add multiple classes. With array syntax we can use both classes that depend on a Vue property and classes that do not depend on a Vue property.
 
 Example<br>
