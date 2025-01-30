@@ -33,7 +33,7 @@ Select images of food. Selected food is highlighted with the use of v-bind:class
 </div>
 ```
 
-**Other Ways to Assign Classes and Style**
+**Other Ways to Assign Classes and Style**<br>
 Here are different aspects regarding the use of v-bind:class and v-bind:style that we have not seen before in this tutorial:
 
 - When CSS classes are assigned to an HTML tag with both `class=""` and `v-bind:class=""` Vue merges the classes.
@@ -43,7 +43,7 @@ Here are different aspects regarding the use of v-bind:class and v-bind:style th
 
 The four points are explained in more detail below.
 
-**1. Vue Merges 'class' And 'v-bind:class'**
+**1. Vue Merges 'class' And 'v-bind:class'**<br>
 In cases when an HTML tag belongs to a class assigned with class="", and is also assigned to a class with v-bind:class="", Vue merges the classes for us.
 
 Example</br>
@@ -55,7 +55,7 @@ A `<div>` element belongs to two classes: 'impClass' and 'yelClass'. The 'import
 </div>
 ```
 
-**2. Assign More Than One Class With 'v-bind:class'**
+**2. Assign More Than One Class With 'v-bind:class'**<br>
 When assigning an HTML element to a class with v-bind:class="{}", we can simply use comma to separate and assign multiple classes.
 
 Example</br>
@@ -67,7 +67,7 @@ A `<div>` element can belong to both 'impClass' and 'yelClass' classes, dependin
 </div>
 ```
 
-**3. Camel case vs kebab case notation with 'v-bind:style'**
+**3. Camel case vs kebab case notation with 'v-bind:style'**<br>
 When modifying CSS in Vue with in-line styling (v-bind:style), it is recommended to use camel Case notation for the CSS property, but 'kebab-case' can also be used if the CSS property is inside quotes.
 
 &nbsp;<br>
@@ -81,7 +81,7 @@ Here, we set CSS properties background-color and font-weight for a <div> element
 ```
 
 &nbsp;<br>
-**4. Array Syntax with 'v-bind:class'**
+**4. Array Syntax with 'v-bind:class'**<br>
 We can use array syntax with v-bind:class to add multiple classes. With array syntax we can use both classes that depend on a Vue property and classes that do not depend on a Vue property.
 
 Example<br>
