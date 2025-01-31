@@ -9,7 +9,7 @@ So, a '<template>' is a special HTML-like element used to define the structure o
 Key Points About templates in Vue 3:</br>
 
 **1. Encapsulation of Markup:**
-The <template> section contains the HTML structure of the component.
+The `<template>` section contains the HTML structure of the component.
 It is not rendered as an actual DOM element in the output.
 
 **2. Reactivity & Binding:**
