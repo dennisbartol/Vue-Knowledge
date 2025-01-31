@@ -25,7 +25,7 @@ Vue 3 allows multiple root elements inside <template>, unlike Vue 2 which requir
 
 
 &nbsp;</br>
-Example of a <template> in a Vue 3 Component:
+Example of a `<template>` in a Vue 3 Component:
 
 ``` js
 <template>
