@@ -4,7 +4,7 @@ A template in Vue is what we call the HTML part of our Vue application.
 The `<template>` tag will later be used in *.vue files to structure our code in a better way.
 It is possible to use template as a configuration option in the Vue instance, and put the HTML code inside.
 
-So, a '<template>' is a special HTML-like element used to define the structure of a Vue component's UI. It acts as a container for the component’s markup and is essential in Vue’s Single File Components (SFCs) or inside inline component definitions.
+So, a `<template>` is a special HTML-like element used to define the structure of a Vue component's UI. It acts as a container for the component’s markup and is essential in Vue’s Single File Components (SFCs) or inside inline component definitions.
 
 Key Points About templates in Vue 3:</br>
 
