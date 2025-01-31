@@ -20,7 +20,7 @@ It can dynamically render data using `{{ }} (interpolation)`.
 Unlike regular HTML, elements inside <template> are reactive and belong only to the component they are defined in.
 
 **4. Multiple Root Elements (Vue 3 feature):**
-Vue 3 allows multiple root elements inside <template>, unlike Vue 2 which required a single root element.
+Vue 3 allows multiple root elements inside a template, unlike Vue 2 which required a single root element.
 
 
 &nbsp;</br>
