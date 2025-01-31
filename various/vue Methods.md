@@ -24,7 +24,7 @@ export default {
 </script>
 ```
 
-
+&nbsp;</br>
 **2. Data Manipulation:** Methods allow you to create reusable functions to modify or process the component's data.
 
 ```js
@@ -51,6 +51,7 @@ export default {
 </script>
 ```
 
+&nbsp;</br>
 **3. Code Organization:** They help separate logic from the template, making the codebase cleaner and more maintainable.
 
 
