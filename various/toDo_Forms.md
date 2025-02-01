@@ -21,6 +21,8 @@ With routing set up appropriately, if you open the Vue application with an exten
 Install The Vue Router Library
 To use routing in Vue on your machine, install the Vue Router library in your project folder using the terminal:
 
-npm install vue-router@4
+```
+npm install vue-router@
+```
 
 
