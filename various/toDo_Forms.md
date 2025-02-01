@@ -19,6 +19,8 @@ Aircraft.vue
 </template>
 ```
 
+Helicopters.vue
+
 ```vue
 <template>
     <h1>Helicopters</h1>
@@ -28,6 +30,7 @@ Aircraft.vue
 
 ```vue
 
+App.vue
 <template>
   <p>Choose what part of this page you want to see:</p>
   <button @click="activeComp = 'animal-collection'">Aircraft</button>
