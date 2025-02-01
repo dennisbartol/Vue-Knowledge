@@ -25,7 +25,7 @@ Aircraft.vue
 
 <template>
   <p>Choose what part of this page you want to see:</p>
-  <button @click="activeComp = 'animal-collection'">Animals</button>
+  <button @click="activeComp = 'animal-collection'">Aircraft</button>
   <button @click="activeComp = 'food-items'">Food</button><br>
   <div>
     <component :is="activeComp"></component>
