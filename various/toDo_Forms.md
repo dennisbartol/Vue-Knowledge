@@ -19,7 +19,12 @@ Aircraft.vue
 </template>
 ```
 
-
+```vue
+<template>
+    <h1>Helicopters</h1>
+    <p>I want to learn about at least one new helicopter type, every year.</p>
+</template>
+```
 
 ```vue
 
