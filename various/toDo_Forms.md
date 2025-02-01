@@ -31,7 +31,7 @@ Aircraft.vue
 <template>
   <p>Choose what part of this page you want to see:</p>
   <button @click="activeComp = 'animal-collection'">Aircraft</button>
-  <button @click="activeComp = 'food-items'">Food</button><br>
+  <button @click="activeComp = 'food-items'">Helicopters</button><br>
   <div>
     <component :is="activeComp"></component>
   </div>
