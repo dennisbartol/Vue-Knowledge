@@ -11,6 +11,15 @@ With routing we can use the URL address to direct someone to a specific place in
 Example
 
 
+Aircraft.vue
+```vue
+<template>
+    <h1>Aircraft</h1>
+    <p>There are a lot of aircraft types.</p>
+</template>
+```
+
+
 
 ```vue
 
