@@ -49,12 +49,12 @@ export default {
 
 <style scoped>
   button {
-    padding: 5px;
+    padding: 6px;
     margin: 10px;
   }
   div {
-    border: dashed black 1px;
-    padding: 20px;
+    border: dotted #333 1px;
+    padding: 18px;
     margin: 10px;
     display: inline-block;
   }
