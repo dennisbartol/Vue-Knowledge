@@ -86,3 +86,6 @@ npm install vue-router@
 &nbsp;<br>
 **Update main.js**
 To use routing we must create a router, and we do that in the main.js file.
+
+
+//////
