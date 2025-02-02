@@ -9,8 +9,8 @@ Computed properties are updated automatically when a dependency changes, while m
 Computed properties are used when outputting something that depends on something else.
 
 
-
-**Computed Properties are Dynamic**
+&nbsp;<br>
+**Computed Properties are Dynamic**<br>
 The big advantage with a computed property is that it is dynamic, meaning it changes depending on for example the value of one or more data properties.
 
 Computed properties is the third configuration option in the Vue instance that we will learn. The first two configuration options we have already looked at are 'data' and 'methods'.
