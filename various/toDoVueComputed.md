@@ -17,3 +17,11 @@ Computed properties is the third configuration option in the Vue instance that w
 
 As with 'data' and 'methods' computed properties also has a reserved name in the Vue instance: 'computed'.
 
+
+
+
+**Computed Properties vs. Methods**
+Computed properties and methods are both written as functions, but they are different:
+
+Methods runs when called from HTML, but computed properties updates automatically when a dependency change.
+Computed properties are used the same way we use data properties, but they are dynamic.
