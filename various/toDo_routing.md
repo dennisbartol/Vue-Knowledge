@@ -5,3 +5,11 @@ Routing in Vue is used to navigate the Vue application, and it happens on the cl
 Routing is a way to navigate, similar to how we have used dynamic components earlier.
 
 With routing we can use the URL address to direct someone to a specific place in our Vue application.
+
+
+**Navigate Using a Dynamic Component**
+To understand routing in Vue, let's first look at an application that uses a dynamic component to switch between two components.
+
+We can switch between the components using buttons:
+
+Example
