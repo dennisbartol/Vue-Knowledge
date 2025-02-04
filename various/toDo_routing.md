@@ -23,7 +23,7 @@ App.vue
   <button @click="activeComponent = 'animal-collection'">Animals</button>
   <button @click="activeComponent = 'food-items'">Food</button><br>
   <div>
-    <component :is="activeComp"></component>
+    <component :is="activeComponent"></component>
   </div>
 </template>
 
