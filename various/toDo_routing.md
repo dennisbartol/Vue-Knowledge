@@ -20,8 +20,8 @@ App.vue
 
 <template>
   <p>Choose what part of this page you want to see:</p>
-  <button @click="activeComp = 'animal-collection'">Animals</button>
-  <button @click="activeComp = 'food-items'">Food</button><br>
+  <button @click="activeComponent = 'animal-collection'">Animals</button>
+  <button @click="activeComponent = 'food-items'">Food</button><br>
   <div>
     <component :is="activeComp"></component>
   </div>
@@ -31,7 +31,7 @@ App.vue
 export default {
   data() {
       return {
-        activeComp: ''
+        activeComponent: ''
       }
     }
 }
@@ -39,12 +39,12 @@ export default {
 
 <style scoped>
   button {
-    padding: 5px;
-    margin: 10px;
+    padding: 4px;
+    margin: 11px;
   }
   div {
-    border: dashed black 1px;
-    padding: 20px;
+    border: dotted dodgerblue 1px;
+    padding: 18px;
     margin: 10px;
     display: inline-block;
   }
