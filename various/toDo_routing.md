@@ -52,15 +52,17 @@ export default {
 ```
 
 
-
-**From Dynamic Component to Routing**
+&nbsp;<br>
+**From Dynamic Component to Routing**<br>
 We build SPAs (Single Page Applications) with Vue, which means that our application only contains one *.html file. And that means we cannot direct people to other *.html files to show them different content on our page.
 
 In the example above, we can navigate between different content on the page, but we cannot give someone else an address to the page so that they come directly to the part about food, but with routing we can do that.
 
 With routing set up appropriately, if you open the Vue application with an extension to the URL address, like "/food-items" for example, you will come directly to the part with the food content.
 
-Install The Vue Router Library
+
+&nbsp;<br>
+**Install The Vue Router Library**
 To use routing in Vue on your machine, install the Vue Router library in your project folder using the terminal:
 
 ``` js
