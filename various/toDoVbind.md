@@ -3,6 +3,7 @@
 
 A basic Vue setup consists of a Vue instance and that we can access it from the ```<div id="app">``` tag with {{ }} or the v-bind directive.
 
+&nbsp;<br>
 What is the v-bind directive in more detail? 
 
 The v-bind directive lets us bind an HTML attribute to data in the Vue instance. This makes it easy to change the attribute value dynamically.
