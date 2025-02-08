@@ -18,6 +18,8 @@ The src attribute value of an <img> tag is taken from the Vue instance data prop
 <img v-bind:src="url">
 ```
 
+&nbsp;<br>
+
 **CSS Binding**
 We can use the v-bind directive to do in-line styling and modify classes dynamically. We will show you briefly how to do that in this section, and later in this tutorial, on the CSS Binding page, we will explain this in more detail.
 
@@ -78,6 +80,7 @@ The background color depends on the 'bgVal' data property value inside the Vue i
 /
 
 
+&nbsp;<br>
 **Shorthand for v-bind**
 The shorthand for 'v-bind:' is simply ```':'``` (colon).
 
