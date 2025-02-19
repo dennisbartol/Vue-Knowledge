@@ -32,6 +32,5 @@ The key attribute is used with the v-for directive so that Vue can tell the elem
 
 Vue optimizes performance by reusing elements. So when elements are created from an array with v-for, if the key attribute is NOT used, element properties can be mixed when the array gets modified.
 
-For a more thorough explanation, and an example of what goes wrong when the key attribute is not used, see The 'key' Attribute chapter in the Vue tutorial.
 
 
