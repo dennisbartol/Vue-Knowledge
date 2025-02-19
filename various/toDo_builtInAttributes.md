@@ -3,7 +3,7 @@
 
 #### Vue has a set of built-in attributes.
 
------
+
 | Attribute |	Description |
 
 | is	| Refers to the current active dynamic component | 
