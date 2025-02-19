@@ -33,7 +33,7 @@ The key attribute is used with the v-for directive so that Vue can tell the elem
 Vue optimizes performance by reusing elements. So when elements are created from an array with v-for, if the key attribute is NOT used, element properties can be mixed when the array gets modified.
 
 
-
+&nbsp;<br>
 #### Ref Attribute 
 
 The ref attribute is used to mark elements in <template>, so that they can be accessed from the $refs object inside <script>.
