@@ -23,3 +23,15 @@ In more detail, the is attribute is bound to a property with v-bind, and the pro
 If we do not use the vue: prefix, it will be interpreted as a customized built-in element, as explained right below here, and the Vue component will not be inserted.
 
 **3. Customized built-in element:** Customized built-in elements can be written in JavaScript, and the is attribute can be used on an HTML tag to define it as such a customized built-in element. This is not a Vue feature.
+
+
+
+#### Key Attribute 
+
+The key attribute is used with the v-for directive so that Vue can tell the elements apart properly.
+
+Vue optimizes performance by reusing elements. So when elements are created from an array with v-for, if the key attribute is NOT used, element properties can be mixed when the array gets modified.
+
+For a more thorough explanation, and an example of what goes wrong when the key attribute is not used, see The 'key' Attribute chapter in the Vue tutorial.
+
+
