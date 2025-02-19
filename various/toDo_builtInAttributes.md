@@ -34,3 +34,12 @@ Vue optimizes performance by reusing elements. So when elements are created from
 
 
 
+#### Ref Attribute 
+
+The ref attribute is used to mark elements in <template>, so that they can be accessed from the $refs object inside <script>.
+
+We can use the ref attribute and the $refs object in Vue as an alternative to methods in plain JavaScript like getElementById() or querySelector().
+
+If HTML elements created with v-for have the ref attribute, the resulting DOM elements will be added to the $refs object as an array, like demonstrated in this example:
+
+
