@@ -2,6 +2,8 @@
 
 Vue has a set of built-in components.
 
+These are:</br>
+
 | Component |	Description |
 |----------| ------------------|
 |`<KeepAlive>` |	Remembers the state of non-active dynamic components
