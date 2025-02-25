@@ -3,7 +3,7 @@
 In Vue 3 (or any web project using CSS), @font-face is a CSS rule used to define custom fonts that can be loaded and used in your application. It allows you to specify a font file (e.g., .ttf, .woff, .woff2, etc.) 
 and use it anywhere in your Vue components.
 
-**Usage in Vue 3**
+**Usage in Vue 3**</br>
 You can define @font-face in a global CSS or SCSS file (e.g., styles.css or styles.scss), or inside a Vue single-file component's <style> section.
 
 &nbsp;</br>
