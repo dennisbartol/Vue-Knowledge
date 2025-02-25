@@ -31,17 +31,17 @@ If you want to define the font only in a specific component:
 
 ``` js
 <template>
-  <div class="custom-text">Hello, Vue 3!</div>
+  <div class="custom-text">Custom font, in Vue 3!</div>
 </template>
 
 <style scoped>
 @font-face {
-  font-family: 'CustomFont';
+  font-family: 'CustomizedFont';
   src: url('@/assets/fonts/CustomFont.woff2') format('woff2');
 }
 
 .custom-text {
-  font-family: 'CustomFont', sans-serif;
+  font-family: 'CustomizedFont', sans-serif;
 }
 </style>
 
