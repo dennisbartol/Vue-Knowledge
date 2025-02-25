@@ -23,3 +23,28 @@ body {
   font-family: 'CustomFont', sans-serif;
 }
 ```
+
+
+**Example: Using @font-face Inside a Vue Component**
+
+If you want to define the font only in a specific component:
+
+``` js
+<template>
+  <div class="custom-text">Hello, Vue 3!</div>
+</template>
+
+<style scoped>
+@font-face {
+  font-family: 'CustomFont';
+  src: url('@/assets/fonts/CustomFont.woff2') format('woff2');
+}
+
+.custom-text {
+  font-family: 'CustomFont', sans-serif;
+}
+</style>
+
+
+
+```
