@@ -50,6 +50,4 @@ If you want to define the font only in a specific component:
 
 
 **Where to place font files?**</br>
-In a Vue 3 project, font files are typically placed inside the src/assets/fonts/ directory. If using Vite, @ resolves to the src/ directory.
-
-Would you like help with dynamically loading fonts or ensuring compatibility across browsers?
+In a Vue 3 project, font files are typically placed inside the src/assets/fonts/ directory. When using Vite, `@` resolves to the `src/` directory.
