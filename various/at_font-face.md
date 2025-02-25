@@ -1,4 +1,4 @@
-### Font-Face
+### @Font-Face
 
 In Vue 3 (or any web project using CSS), @font-face is a CSS rule used to define custom fonts that can be loaded and used in your application. It allows you to specify a font file (e.g., .ttf, .woff, .woff2, etc.) 
 and use it anywhere in your Vue components.
@@ -6,7 +6,8 @@ and use it anywhere in your Vue components.
 **Usage in Vue 3**
 You can define @font-face in a global CSS or SCSS file (e.g., styles.css or styles.scss), or inside a Vue single-file component's <style> section.
 
-**Example: Using @font-face in a Global CSS File**
+&nbsp;</br>
+**Example: Using @font-face in a global CSS file**
 
 Create or update your global style.css file:
 
@@ -24,8 +25,8 @@ body {
 }
 ```
 
-
-**Example: Using @font-face Inside a Vue Component**
+&nbsp;</br>
+**Example: Using @font-face inside a Vue component**
 
 If you want to define the font only in a specific component:
 
@@ -37,7 +38,7 @@ If you want to define the font only in a specific component:
 <style scoped>
 @font-face {
   font-family: 'CustomizedFont';
-  src: url('@/assets/fonts/CustomFont.woff2') format('woff2');
+  src: url('@/assets/fonts/CustomizedFont.woff2') format('woff2');
 }
 
 .custom-text {
@@ -45,6 +46,10 @@ If you want to define the font only in a specific component:
 }
 </style>
 
-
-
 ```
+
+
+**Where to place font files?**
+In a Vue 3 project, font files are typically placed inside the src/assets/fonts/ directory. If using Vite, @ resolves to the src/ directory.
+
+Would you like help with dynamically loading fonts or ensuring compatibility across browsers?
