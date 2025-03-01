@@ -22,19 +22,21 @@ Key Features of Vite:
 
 Why Use Vite Instead of Webpack?
 
-Faster Development – No need for full re-bundling.
+- Faster Development – No need for full re-bundling.
 
-Better DX (Developer Experience) – Instant updates with minimal lag.
+- Better DX (Developer Experience) – Instant updates with minimal lag.
 
-Simpler Configuration – Requires less setup compared to Webpack.
+- Simpler Configuration – Requires less setup compared to Webpack.
 
 
 Example: Starting a Vue 3 Project with Vite
 
+```
 npm create vite@latest my-vue-app --template vue
 cd my-vue-app
 npm install
 npm run dev
+```
 
 Vite is now the default for Vue 3 and is rapidly replacing Webpack for modern web development. 
 
