@@ -2,6 +2,8 @@
 
 Vite is a modern frontend build tool and development server designed for fast performance, especially for Vue 3 and other modern frameworks. Unlike Webpack, which bundles the entire app before serving, Vite leverages native ES modules to provide instant hot module replacement (HMR) and ultra-fast updates.
 
+
+&nbsp;<br>
 Key Features of Vite:
 
 1. Blazing-Fast Dev Server – Uses ES modules for near-instant startup.
