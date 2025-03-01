@@ -19,8 +19,8 @@ Key Features of Vite:
 5. Auto-Optimization – Pre-bundles dependencies using esbuild (much faster than Webpack’s Babel).
 
 
-
-Why Use Vite Instead of Webpack?
+&nbsp;<br>
+**Why Use Vite Instead of Webpack?**
 
 - Faster Development – No need for full re-bundling.
 
@@ -28,8 +28,9 @@ Why Use Vite Instead of Webpack?
 
 - Simpler Configuration – Requires less setup compared to Webpack.
 
-
-Example: Starting a Vue 3 Project with Vite
+&nbsp;<br>
+Example: </br>
+Starting a Vue 3 Project with Vite<br>
 
 ```
 npm create vite@latest my-vue-app --template vue
