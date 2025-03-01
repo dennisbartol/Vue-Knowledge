@@ -38,5 +38,5 @@ npm install
 npm run dev
 ```
 
-Vite is now the default for Vue 3 and is rapidly replacing Webpack for modern web development. 
+Vite has become the default for Vue 3 and is rapidly replacing Webpack for modern web development. 
 
