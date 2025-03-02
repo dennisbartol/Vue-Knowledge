@@ -4,11 +4,11 @@ In Vue 3, the @ character is used as a shorthand for various directives and feat
 
 Event Binding (v-on)
 
-@click="handleClick" → shorthand for v-on:click="handleClick"
+- @click="handleClick" → shorthand for v-on:click="handleClick"
 
-@mouseover="handleMouseover" → shorthand for v-on:mouseover="handleMouseover"
+- @mouseover="handleMouseover" → shorthand for v-on:mouseover="handleMouseover"
 
-Supports event modifiers like @click.stop, @keydown.enter, etc.
+- Supports event modifiers like @click.stop, @keydown.enter, etc.
 
 
 Dynamic Event Binding
