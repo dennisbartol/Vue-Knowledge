@@ -2,7 +2,7 @@
 
 In Vue 3, the @ character is used as a shorthand for various directives and features. Here are all the ways it is commonly used:
 
-Event Binding (v-on)
+**Event Binding (v-on)**
 
 - @click="handleClick" → shorthand for v-on:click="handleClick"
 
@@ -11,28 +11,28 @@ Event Binding (v-on)
 - Supports event modifiers like @click.stop, @keydown.enter, etc.
 
 
-Dynamic Event Binding
+**Dynamic Event Binding**
 
-@[eventName]="handleEvent" → dynamically binds an event using a variable.
-
-
-Custom Event Emission ($emit)
-
-@custom-event="handleCustomEvent" → listens for custom events emitted by a child component.
+- @[eventName]="handleEvent" → dynamically binds an event using a variable.
 
 
-Modifiers for Event Handling
+**Custom Event Emission ($emit)**
 
-@submit.prevent="handleSubmit" → prevents default behavior.
-
-@click.stop="handleClick" → stops event propagation.
-
-@keyup.enter="handleEnterKey" → listens for Enter key presses.
-
-@click.once="handleClickOnce" → ensures the event fires only once.
+- @custom-event="handleCustomEvent" → listens for custom events emitted by a child component.
 
 
-Inline Event Handling
+**Modifiers for Event Handling**
 
-@click="count++" → executes inline expressions.
+- @submit.prevent="handleSubmit" → prevents default behavior.
+
+- @click.stop="handleClick" → stops event propagation.
+
+- @keyup.enter="handleEnterKey" → listens for Enter key presses.
+
+- @click.once="handleClickOnce" → ensures the event fires only once.
+
+
+**Inline Event Handling**
+
+- @click="count++" → executes inline expressions.
 
