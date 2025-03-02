@@ -133,4 +133,4 @@ In this Composition API example:
 - In **Composition API**, props are accessed within the `setup()` function.
 - Props are typed (e.g., `String`, `Number`) and can be required or optional.
   
-This pattern provides flexibility and reusability when working with Vue components!
+This programming pattern provides flexibility and reusability when working with Vue components. 
